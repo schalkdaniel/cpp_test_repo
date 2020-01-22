@@ -5,7 +5,7 @@
  * @brief Example class to see how virtual member work
  *
  * Class defines virtual member function in parent class. This function must be overwritten by
- * the child classes! Also note that the unique pointer are automatically deleted after they
+ * the child classes! Also note that the smart unique pointer are automatically deleted after they
  * run out of scope!
  *
  * Compilation:
