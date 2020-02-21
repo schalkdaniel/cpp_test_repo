@@ -6,7 +6,7 @@
  *
  *  @section DESCRIPTION 
  *  This section will be updated once the code works as expected.  
- *  
+ *  No virtual functions in this example
  *
  *  
  * 
