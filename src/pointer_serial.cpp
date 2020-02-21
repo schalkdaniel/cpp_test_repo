@@ -2,10 +2,9 @@
  *  @file    pointer_serial.cpp
  *  @author  Shawn
  *
- *  @brief Pointer, saving data, first draft
+ *  @brief Pointer, saving data with serialization, first draft
  *
- *  @section DESCRIPTION
- *  First draft of serialization task. 
+ *  @section DESCRIPTION 
  *  This section will be updated once the code works as expected.  
  *  
  *
