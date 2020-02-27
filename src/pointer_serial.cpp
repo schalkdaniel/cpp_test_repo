@@ -17,6 +17,7 @@
 #include <fstream>
 #include <boost/archive/text_oarchive.hpp>
 #include <boost/archive/text_iarchive.hpp>
+#include <sstream>
 
 
 class Gear {
@@ -60,18 +61,14 @@ int main() {
   c.setHP(80);
   c.setGear(g);
   c.status();
-
-  /*
-  std::ofstream ofs("myfile.txt");
-  boost::archive::text_oarchive oa(ofs);
+  std::stringstream ss;
+  boost::archive::text_oarchive oa{ss};
   oa << c;
-  ofs.close();
-
-  std::ifstream ifs("myfile.txt");
-  boost::archive::text_oarchive ia(ifs);
-  Car c2;
-  ia >> c2;
-  c2.status();
-  */
+  
+  Car b;
+  boost::archive::text_iarchive ia{ss};
+  ia >> b;
+  b.status();
   return 0;
 }
+
