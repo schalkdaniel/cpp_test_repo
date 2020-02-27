@@ -61,6 +61,7 @@ int main() {
   c.setHP(80);
   c.setGear(g);
   c.status();
+  
   std::stringstream ss;
   boost::archive::text_oarchive oa{ss};
   oa << c;
