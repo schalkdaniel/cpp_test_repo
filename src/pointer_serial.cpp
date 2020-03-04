@@ -76,14 +76,14 @@ int main() {
 	std::ofstream outputStream;
 	outputStream.open("Car.txt");
   boost::archive::text_oarchive outputArchive(outputStream);
-  oa << c;
+  outputArchive << c;
 	outputStream.close();
 
   Car b;
   std::ifstream inputStream;
   inputStream.open("Car.txt", std::ifstream::in);
   boost::archive::text_iarchive inputArchive(inputStream);
-  ia >> b;
+  inputArchive >> b;
   b.status();
   inputStream.close();
   return 0;
