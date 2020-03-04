@@ -62,16 +62,16 @@ int main() {
   c.setGear(g);
   c.status();
   
-  std::stringstream ss; // of/ifstream version below
-  boost::archive::text_oarchive oa{ss};
-  oa << c;
+//   std::stringstream ss; // of/ifstream version below
+//   boost::archive::text_oarchive oa{ss};
+//   oa << c;
   
-  Car b; //new object has to be created to load
-  boost::archive::text_iarchive ia{ss};
-  ia >> b;
-  b.status();
-  return 0;
-}
+//   Car b; //new object has to be created to load
+//   boost::archive::text_iarchive ia{ss};
+//   ia >> b;
+//   b.status();
+//   return 0;
+// 
 
 	std::ofstream outputStream;
 	outputStream.open("Car.txt");
@@ -87,3 +87,4 @@ int main() {
   b.status();
   inputStream.close();
   return 0;
+}
