@@ -1,25 +1,39 @@
-/**
- *  @file    pointer_serial.cpp
- *  @author  Shawn
- *
- *  @brief Pointer, saving data with serialization, first draft
- *
- *  @section DESCRIPTION
- *  This section will be updated once the code works as expected.
- *  No virtual functions in this example
- *
- *
- *
- **/
-
-
 #include <iostream>
 #include <fstream>
 #include <boost/archive/binary_oarchive.hpp>
 #include <boost/archive/binary_iarchive.hpp>
 #include <sstream>
 #include <boost/serialization/split_member.hpp>
+#include <armadillo>
 
+BOOST_SERIALIZATION_SPLIT_FREE(arma::mat)
+
+//namespace for the Arma matrices
+  namespace boost { 
+  namespace serialization {
+
+  template<class Archive>
+  void save(Archive & ar, const arma::mat &t, unsigned int version)
+  {
+    ar & t.n_rows;
+    ar & t.n_cols;
+    const double *data = t.memptr();
+    for(int K=0; K<t.n_elem; ++K)
+        ar & data[K];
+  }
+
+  template<class Archive>
+  void load(Archive & ar, arma::mat &t, unsigned int version)
+  {
+    int rows, cols;
+    ar & rows;
+    ar & cols;
+    t.set_size(rows, cols);
+    double *data = t.memptr();
+    for(int K=0; K<t.n_elem; ++K)
+        ar & data[K];
+  }
+  } } 
 
 class Gear {
   public:
@@ -41,16 +55,22 @@ class Car {
     void serialize(Archive& ar, unsigned int version) {
       ar & hp;
       ar & x;
-    }
+      ar & A;
+   }
 
+    arma::mat A;// = arma::randu<arma::mat>(4,5);
     void setHP (const int& _hp) { hp = _hp; }
     void setGear (Gear* _Gear) { x = _Gear; }
-    void status () { std::cout << "hp = " << hp << " Gear with v = " << x->getV() <<  std::endl; }
+    void status () { std::cout << "hp = " << hp << " Gear with v = " << x->getV() << A<< std::endl; }
 
-  private:
+    private:
     int hp;
     Gear *x;
 };
+
+
+
+
 
 int main() {
   // Define new Gear:
@@ -62,9 +82,8 @@ int main() {
   Car c;
   c.setHP(80);
   c.setGear(g);
+  c.A = arma::randu<arma::mat>(4,5);
   //c.status();
-  
-
 
 
   std::ofstream outputStream;
@@ -84,4 +103,3 @@ int main() {
 
 
 }
-
