@@ -1,13 +1,6 @@
 #include <iostream>
 #include <armadillo>
 
-
-
-//provide explicit instantiations of the template function for 
-//every matrix type you use somewhere in your program.
-//template void print_matrix<arma::mat>(arma::mat matrix);
-//template void print_matrix<arma::cx_mat>(arma::cx_mat matrix);
-
 arma::vec valuesFromSpMat (const arma::sp_mat& X)
 {
       arma::vec out(X.n_nonzero);  
