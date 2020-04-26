@@ -5,14 +5,14 @@
 #include <boost/serialization/assume_abstract.hpp>
 #include <boost/serialization/serialization.hpp>
 #include <boost/serialization/split_member.hpp>
+#include <boost/serialization/export.hpp>
+#include <boost/serialization/unique_ptr.hpp>
 
 #include <fstream>
 #include <iostream>
 #include <memory>
 #include <sstream>
 #include <vector>
-
-BOOST_SERIALIZATION_ASSUME_ABSTRACT(Car); //Tell Boost that Car is abstract
 
 //Serialization for Armadillo Matrices------------------
 BOOST_SERIALIZATION_SPLIT_FREE(arma::mat)
@@ -39,36 +39,78 @@ namespace boost::serialization {
 
 class Car {
 public:
-      virtual double getInfo() = 0;
+    //Car() = default;
+    //virtual double getInfo() = 0;
+    virtual char const* type() const = 0;
+    virtual ~Car() = default;
 
 private:
-//    template <typename Archive>
-//    virtual void serialize(Archive& ar, unsigned int version) = 0;
+    friend class boost::serialization::access;
+    template <class Archive>
+    void serialize(Archive& ar, const unsigned int version) {};
 };
 
 class Porsche : public Car {
 public:
-    double getInfo() override { return 1.1; }
+    char const* type() const override { return "Porsche"; }
+    //double getInfo() override { return 1.1; }
+    Porsche(std::string owner1, int hp1, arma::mat A1)
+        {
+        owner = owner1;
+        hp = hp1;
+        A = A1; 
 
-    template <typename Archive>
-    void serialize(Archive& ar, unsigned int) {
-        ar & owner;
-        ar & hp;
-        ar & A;
-    }
-
-public:
+        }
     std::string owner;
     int hp{};
     arma::mat A;
+    Porsche() = default;
+private:
+    friend class boost::serialization::access;
+    template <class Archive>
+    void serialize(Archive& ar, const unsigned int version) {
+        ar & boost::serialization::base_object<Car>(*this); //https://theboostcpplibraries.com/boost.serialization-class-hierarchies
+        ar & owner;
+        ar & hp;
+        ar & A;
+    }    
+
+    
 };
 
 class Audi : public Car {
 public:
-    double getInfo() override { return 2; }
+    char const* type() const override { return "Audi"; }
+    //double getInfo() override { return 2.2; }
+    Audi(std::string owner1, int hp1, std::string second_owner1, std::string country1,  arma::mat A1)
+        {
+        owner = owner1;
+        hp = hp1;
+        second_owner = second_owner1; 
+        country = country1;
+        A = A1; 
+        }
+    Audi() = default;
+    // void setVariables(std::string owner1, int hp1, std::string second_owner1, std::string country1,  arma::mat A1)
+    // {
+    //     owner = owner1;
+    //     hp = hp1;
+    //     second_owner = second_owner1; 
+    //     country = country1;
+    //     A = A1;
+    // }
 
-    template <typename Archive>
-    void serialize(Archive& ar, unsigned int) {
+    std::string owner;
+    int hp{};
+    std::string second_owner;
+    std::string country;
+    arma::mat A;
+
+private:
+    friend class boost::serialization::access;
+    template <class Archive>
+    void serialize(Archive& ar, const unsigned int version) {
+        ar & boost::serialization::base_object<Car>(*this); //https://theboostcpplibraries.com/boost.serialization-class-hierarchies
         ar & owner;
         ar & hp;
         ar & second_owner;
@@ -76,46 +118,66 @@ public:
         ar & A;
     }
 
-public:
-    std::string owner;
-    int hp{};
-    std::string second_owner;
-    std::string country;
- arma::mat A;
 };
 
+BOOST_CLASS_EXPORT(Audi);
+BOOST_CLASS_EXPORT(Porsche);
+BOOST_SERIALIZATION_ASSUME_ABSTRACT(Car); //Tell Boost that Car is abstract
+
+
+
 int main() {
-    {
-        std::unique_ptr<Audi> audi(new Audi);
-        audi->getInfo();
-        audi->A = arma::randu<arma::mat>(4,5);
-        audi->hp = 3;
+    std::string str;
+   {
+        std::unique_ptr<Car> audi = std::make_unique<Audi>("Wilma", 3, "Rene", "Argentina" ,arma::randu<arma::mat>(4,5));
+        //audi->type();
 
-        std::unique_ptr<Porsche> porsche(new Porsche);
-        porsche->getInfo();
-        porsche->A = arma::randu<arma::mat>(6,5);
-        porsche->hp = 14;
-        porsche->owner = "Joe";
+       // audi->A1 = arma::randu<arma::mat>(4,5);
+       // audi->hp1 = 3;
+       // audi->owner1 = "Wilma"
+       // audi->second_owner1 = "Rene"
+       // audi->country1 = "Argentina"
+        //std::unique_ptr<Car> audi = std::make_unique<Audi>(owner1, hp1, second_owner1, country1, A1);
 
-        std::ofstream outputStream("bin.dat", std::ios::binary);
-//      boost::archive::text_oarchive ss(outputStream);
-        boost::archive::binary_oarchive ss(outputStream);
-        ss & *audi.get();
-        ss & *porsche.get();
+        std::unique_ptr<Car> porsche = std::make_unique<Porsche>("Joe", 14, arma::randu<arma::mat>(6,5));
+        //porsche->type();
+
+//        porsche->A = arma::randu<arma::mat>(6,5);
+//        porsche->hp = 14;
+//        porsche->owner = "Joe";
+//
+//std::cout<<porsche->A<<;
+
+        // std::ofstream outputStream("bin.dat", std::ios::binary);
+        // boost::archive::binary_oarchive ss(outputStream);
+        // ss & *audi.get();
+        // ss & *porsche.get();
+
+        std::stringstream strs;
+        boost::archive::binary_oarchive ar(strs);
+        ar& *audi;
+        ar& *porsche;
+
+        str = strs.str();
     }
 
     {
-        std::unique_ptr<Audi> audi(new Audi);
-        std::unique_ptr<Porsche>porsche(new Porsche);
+        std::unique_ptr<Car> audi; //= std::make_unique<Audi>();
+        std::unique_ptr<Car> porsche; //= std::make_unique<Porsche>();
 
-        std::ifstream inputStream("bin.dat", std::ios::binary);
-//      boost::archive::text_oarchive ss(outputStream);
-        boost::archive::binary_iarchive ss(inputStream);
-        ss & *audi.get();
-        ss & *porsche.get();
+        // std::ifstream inputStream("bin.dat", std::ios::binary);
+        // boost::archive::binary_iarchive ss(inputStream);
+        // ss & *audi.get();
+        // ss & *porsche.get();
 
-        std::cout << "audi: hp=" << audi->hp << "\n";
-        std::cout << "porsche: hp=" << porsche->hp << " owner=" << porsche->owner << " A=" << porsche-> A <<"\n";
+        std::stringstream strs(str);
+        boost::archive::binary_iarchive ar(strs);
+        ar& *audi;
+        ar& *porsche;
+
+        std::cout << "audi: hp=" << audi.get() << "\n";
+        std::cout << "porsche: hp=" << porsche.get();  //" owner=" << porsche->owner << " A=" << porsche->A <<"\n";
 
     }
+    
 }
