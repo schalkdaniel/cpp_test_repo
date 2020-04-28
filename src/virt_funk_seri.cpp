@@ -43,7 +43,9 @@ public:
     //virtual double getInfo() = 0;
     virtual char const* type() const = 0;
     virtual ~Car() = default;
-
+    std::string owner;
+    int hp{};
+    arma::mat A;
 private:
     friend class boost::serialization::access;
     template <class Archive>
@@ -155,8 +157,8 @@ int main() {
 
         std::stringstream strs;
         boost::archive::binary_oarchive ar(strs);
-        ar& *audi;
-        ar& *porsche;
+        ar& audi;
+        ar& porsche;
 
         str = strs.str();
     }
@@ -172,11 +174,15 @@ int main() {
 
         std::stringstream strs(str);
         boost::archive::binary_iarchive ar(strs);
-        ar& *audi;
-        ar& *porsche;
+        ar& audi;
+        ar& porsche;
+        Audi& a =dynamic_cast<Audi &>(*audi);  
+        Porsche& p =dynamic_cast<Porsche &>(*porsche);    
+  
 
-        std::cout << "audi: hp=" << audi.get() << "\n";
-        std::cout << "porsche: hp=" << porsche.get();  //" owner=" << porsche->owner << " A=" << porsche->A <<"\n";
+
+        std::cout << "audi: hp=" << a.hp << "\n";
+        std::cout << "porsche: hp=" << p.hp<< " owner=" << p.owner << " A=" << p.A <<"\n";
 
     }
     
