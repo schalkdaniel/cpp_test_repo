@@ -14,6 +14,7 @@
 
 #include <stdio.h>
 #include <iostream>
+#include <armadillo>
 
 class Car {
   private:
@@ -28,6 +29,10 @@ int main () {
   std::cout << "Test" << std::endl;
 
   Car test (8);
+
+  arma::mat A(5, 5, arma::fill::zeros);
+
+  A.print("A:");
 
   return 0;
 }
