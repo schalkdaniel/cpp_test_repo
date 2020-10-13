@@ -25,33 +25,37 @@ using namespace std;
 class Base
 {
 public:
-    virtual void test() = 0;
-    virtual void printarma(py::array_t<double> & arr) = 0;
+  //  virtual void test() = 0;
+  //  virtual void printarma(py::array_t<double> & arr) = 0;
     arma::mat x;
    // Base(const arma::mat& x0);
-    Base(py::array_t<double> & arr);
+   explicit Base(py::array_t<double> & arr) {};
 };
 class Derived: public Base
 {
 	
 public:
-    arma::mat x;
+    //arma::mat x;
  //   Derived(const arma::mat& x0) : Base(x0) {};
-    Derived(py::array_t<double> & arr) : Base(arr) {arma::Mat<double> mat = carma::arr_to_mat<double>(arr);
+    explicit Derived(py::array_t<double> & arr) : Base(arr) {arma::Mat<double> mat = carma::arr_to_mat<double>(arr);
 	std::cout << mat<< std::endl;}
-    void printarma(py::array_t<double> & arr) override {arma::Mat<double> mat = carma::arr_to_mat<double>(arr);
-	    std::cout << mat<< std::endl;}
-    void test() override {cout << "Test";}
+//    void printarma(py::array_t<double> & arr) override {arma::Mat<double> mat = carma::arr_to_mat<double>(arr);
+//	    std::cout << mat<< std::endl;}
+//    void test() override {cout << "Test";}
 };
 
 
 PYBIND11_MODULE(example,m) {
-    py::class_<Base>(m, "Base");
-
-    py::class_<Derived, Base>(m, "Derived")
-        .def(py::init<>())
-        .def("test", &Derived::test)
-	.def("printarma", &Derived::printarma,py::arg("arr"));
+     //py::class_<Derived, Base>(m, "Derived")
+   //    .def(py::init<>());
+ 
+  py::class_<Base>(m, "Base")
+      .def(py::init<py::array_t<double>&>());
+  py::class_<Derived, Base>(m, "Derived")
+      .def(py::init<py::array_t<double>&>());
+      //      .def("test", &Derived::test)
+//	.def("printarma", &Derived::printarma,py::arg("arr"));
+    //     .def("Derived", &Derived::Derived);
 } //als constructor geben, auch double übergeben:
 // construc: arma::mat x; ArmaMat (const arma::mat& x0) : x (x0) {} -- vom Beispiel Daniel
 //jetzt geht es um: numpy array einsetzen wie printarma() und am ende eine Armamat zu haben
