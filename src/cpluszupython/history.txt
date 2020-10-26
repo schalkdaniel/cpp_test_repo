@@ -1,0 +1,3043 @@
+    1  SHELL=/bin/zsh
+    2  cp powerlevel10k ~/.oh-my-zsh/themes
+    3  nano ~/.zshrc
+    4  source ~/.zshrc
+    5  git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/powerlevel10k
+    6  source ~/.zshrc
+    7  ls
+    8  cd ..
+    9  ls
+   10  cd shawn
+   11  cd .oh-my-zsh
+   12  ls
+   13  cd themes
+   14  ls
+   15  git clone --depth=1 https://github.com/romkatv/powerlevel10k.git
+   16  source ~/.zshrc
+   17  cd
+   18  wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
+   19  rm -rf /home/shawn/.oh-my-zsh
+   20  wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
+   21  cd ~/.oh-my-zsh/themes/
+   22  git clone https://github.com/romkatv/powerlevel10k.git
+   23  source ~/.zshrc
+   24  nano ~/.zshrc
+   25  source ~/.zshrc
+   26  cd ~/.zshrc
+   27  source ~/.zshrc
+   28  nano ~/.zshrc
+   29  source ~/.zshrc
+   30  sudo nano 
+   31  sudo adduser shawn sudo
+   32  su
+   33  sudo nano 
+   34  sudo nano /etc/apt/sources.list
+   35  sudo apt update
+   36  apt install tlp tlp-rdw
+   37  sudo apt install tlp tlp-rdw
+   38  sudo apt install acpi-call-dkms
+   39  sudo apt install acpi-call-dkmssudo apt-get install powertop 
+   40  sudo apt-get install powertop 
+   41  powertop --calibrate
+   42  sudo powertop --calibrate
+   43  ls /sys/class/backlight
+   44  cd /sys/class/backlight
+   45  ls
+   46  intel_backlight
+   47  ls
+   48  cd
+   49  cd Desktop
+   50  cd
+   51  cd Downloads
+   52  lks
+   53  ls
+   54  su
+   55  logout
+   56  tlp
+   57  dnf list *plasma*
+   58  plasmashell -v
+   59  cd Downloads
+   60  ls
+   61  cd ..
+   62  ls
+   63  cd ..
+   64  ls
+   65  cd ..
+   66  ls
+   67  cd
+   68  cd Downloads
+   69  ls
+   70  cp -r Maia_Transparent/ /usr/share/themes
+   71  sudo cp -r Maia_Transparent/ /usr/share/themes
+   72  sudo apt install vlc
+   73  batteryviewinfo
+   74  sudo batteryviewinfo
+   75  sudo apt install firmward-iwlwifi
+   76  sudo apt install firmware-iwlwifi
+   77  sudo aptitude install wireless-tools
+   78  sudo apt install wireless-tools
+   79  sudo nano /etc/apt/sources.list
+   80  sudo apt-get update
+   81  sudo apt-get update && apt-get install firmware-iwlwifi
+   82  su
+   83  sudo nano /etc/NetworkManager/NetworkManager.conf
+   84  lshw -C
+   85  sudo lshw -C
+   86  lsusb -t
+   87  /etc/NetworkManager/NetworkManager.conf
+   88  auto wlan0
+   89  sudo auto wlan0
+   90  wget https://www.youtube.com/watch\?v\=0g4j2k_Ggc4\&list\=PLqYmG7hTraZDM-OYHWgPebj2MfCFzFObQ\&index\=5
+   91  sudo pip install youtube-dl
+   92  sudo apt get install pip
+   93  sudo apt install pip
+   94  sudo nano /etc/bluetooth/main.conf
+   95  sudo apt-get install xserver-xorg-input-synaptics
+   96  sudo add-apt-respository ppa:papirus/papirus 
+   97  sudo apt install papirus-icon-theme
+   98  sudo apt install qt5-style-kvantum
+   99  sudo apt install latte-dock
+  100  sudo apt update
+  101  sudo apt upgrade
+  102  sudo systemctl disable bluetooth.service
+  103  sudo systemctl enable bluetooth.service
+  104  sudo nautilus
+  105  su -
+  106  ls
+  107  cd Des
+  108  cd Desktop
+  109  mkdir Physik
+  110  mkdir Arbeit
+  111  cd Physik/
+  112  ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+  113  ssh-keygen -t rsa -b 4096 -C "git\n\n\n\n"
+  114  eval "$(ssh-agent -s)"
+  115  ssh-add ~/.ssh/id_rsa
+  116  sudo apt-get install xclip
+  117  sudo dpkg --configure -a
+  118  sudo apt-get install xclip
+  119  sudo apt --fix-broken install
+  120  sudo apt-get install xclip
+  121  git clone git@gitlab.physik.uni-muenchen.de:ls-ruhl/lectures/selected_topics_comp_phys_sose2020.git
+  122  git pull
+  123  git init
+  124  git pull
+  125  ls
+  126  cd selected_topics_comp_phys_sose2020
+  127  git pull
+  128  git clone git@gitlab.physik.uni-muenchen.de:ls-ruhl/lectures/selected_topics_comp_phys_sose2020_feedback.git
+  129  rm -rf selected_topics_comp_phys_sose2020_feedback
+  130  cd ..
+  131  git clone git@gitlab.physik.uni-muenchen.de:ls-ruhl/lectures/selected_topics_comp_phys_sose2020_feedback.git
+  132  cd selected_topics_comp_phys_sose2020_feedback
+  133  git pull
+  134  cd ..
+  135  ls
+  136  cd ..
+  137  cd Arbeit
+  138  git clone https://github.com/schalkdaniel/cpp_test_repo.git
+  139  git clone https://github.com/schalkdaniel/compboost.git
+  140  cd compboost
+  141  git pull
+  142  cd ..
+  143  cd ,,
+  144  cd ..
+  145  cd Desktop
+  146  cd Physik
+  147  cd selected_topics_comp_phys_sose2020
+  148  ls
+  149  cd ..
+  150  cd selected_topics_comp_phys_sose2020_feedback
+  151  ls
+  152  nano Topics_Shawn_Storm.txt
+  153  cd ..
+  154  ls
+  155  cd ..
+  156  ls
+  157  cd Arbeit
+  158  ls
+  159  cd compboost
+  160  ls
+  161  cd R
+  162  ls
+  163  vim RcppExports.R
+  164  sudo apt install vim
+  165  ls
+  166  cd ..
+  167  cd src
+  168  vim compboost_modules.cpp
+  169  sudo apt update
+  170  sudo apt install software-properties-common apt-transport-https curl
+  171  curl -sSL https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
+  172  sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
+  173  sudo apt update
+  174  sudo apt update\nsudo apt install code
+  175  code
+  176  ls
+  177  cd ..
+  178  l
+  179  ls
+  180  cd src
+  181  git status
+  182  git add compboost_modules.cpp
+  183  git comment -m "English correction"
+  184  git commit -m "English correction"
+  185  xclip -sel clip < ~/.ssh/id_rsa.pub
+  186  ssh -T git@github.com
+  187  git commit -m "English correction"
+  188  git config --global user.email "stormsrs@yahoo.com"
+  189  git config --global user.name "Shawn"
+  190  git commit -m "English correction"
+  191  git push
+  192  ssh -T git@github.com
+  193  git push
+  194  git remote -v
+  195  cd ..
+  196  ls
+  197  cd ..
+  198  ls
+  199  git glone git@github.com:schalkdaniel/compboost.git
+  200  git clone git@github.com:schalkdaniel/compboost.git
+  201  cd ..
+  202  ls
+  203  mkdir Arbeit1/
+  204  cd Arbeit1
+  205  git clone git@github.com:schalkdaniel/compboost.git
+  206  cd sr
+  207  ls
+  208  cd compboost
+  209  cd src
+  210  git status
+  211  git add compboost_modules.cpp
+  212  git commit "English correction"
+  213  git commit -m "English correction"
+  214  git push
+  215  cd ..
+  216  ös
+  217  ls
+  218  cd ..
+  219  ls
+  220  git clone git@github.com:schalkdaniel/cpp_test_repo.git
+  221  ls
+  222  cd compboost
+  223  git status
+  224  git add src/compboost_modules.cpp R/boost_linear.R R/boost_splines.R
+  225  git commit -m "English correction"
+  226  git push
+  227  sudo apt update
+  228  sudo snap install termite --candidate
+  229  sudo apt install snapd
+  230  sudo snap install termite --candidatesudo snap install termite --candidatesudo snap install termite --candidatesudo snap install termite --candidatesudo snap install termite --candidatesudo snap install termite --candidatesudo snap install termite --candidatesudo snap install termite --candidatesudo snap install termite --candidatesudo snap install termite --candidatesudo snap install termite --candidatesudo snap install termite --candidatesudo snap install termite --candidatesudo snap install termite --candidatesudo snap install termite --candidatesudo snap install termite --candidatesudo snap install termite --candidatesudo snap install termite --candidatesudo snap install termite --candidatesudo snap install termite --candidatesudo snap install termite --candidatesudo snap install termite --candidatesudo snap install termite --candidatesudo snap install termite --candidatesudo snap install termite --candidatesudo snap install termite --candidatesudo snap install termite --candidatesudo snap install termite --candidatesudo snap install termite --candidatesudo snap install termite --candidateddddddsdsdsdsdsssdddsd
+  231  sudo snap install termite --candidate
+  232  termite
+  233  snap termite
+  234  snap termite (candidate)
+  235  snap termite (candidate) 0.15
+  236  snap uninstall termite
+  237  snap help
+  238  snap run termite
+  239  snap remove termite
+  240  \nsudo apt-get install -y \\n\tgit \\n\tg++ \\n\tlibgtk-3-dev \\n\tgtk-doc-tools \\n\tgnutls-bin \\n\tvalac \\n\tintltool \\n\tlibtool \\n\tlibpcre2-dev \\n\tlibglib3.0-cil-dev \\n\tlibgnutls28-dev \\n\tlibgirepository1.0-dev \\n\tlibxml2-utils \\n\tgperf
+  241  cd
+  242  git clone --recursive https://\ngithub\n.com/thestinger/termite.git
+  243  git clone --recursive https://github.com/thestinger/termite.git
+  244  git clone https://github.com/thestinger/vte-ng.git
+  245  echo export LIBRARY_PATH="/usr/include/gtk-3.0:$LIBRARY_PATH"
+  246  cd vte-ng && ./autogen.sh && make && sudo make install
+  247  cd ../termite && make && sudo make install
+  248  sudo ldconfig
+  249  sudo mkdir -p /lib/terminfo/x; sudo ln -s \\n
+  250  sudo mkdir -p /lib/terminfo/x; sudo ln -s\n
+  251  sudo mkdir -p /lib/terminfo/x\n
+  252  sudo ln -s \\n
+  253  ln --help
+  254  sudo ln -s \\n
+  255  sudo ln -s /\n
+  256  /usr/local/share/terminfo/x/xterm-termite \\nddddd
+  257  sudo mkdir -p /lib/terminfo/x; sudo ln -s \\n/usr/local/share/terminfo/x/xterm-termite \\n/lib/terminfo/x/xterm-termite
+  258  sudo update-alternatives --install /usr/bin/x-terminal-emulator x-terminal-emulator /usr/local/bin/termite 60
+  259  termite
+  260  ls
+  261  cd .
+  262  ls
+  263  cd
+  264  sudo apt-get install apparmor apparmor-utils 
+  265  reboot
+  266  sudo reboot
+  267  ls
+  268  cd 
+  269  ls
+  270  rm lect5.mp4 lect55.mp4
+  271  apt-get update
+  272  sudo apt-get update
+  273  sudo apt-get upgrade
+  274  sudo apt install plasma-applet-redshift-control
+  275  redshift
+  276  cd Desktop
+  277  ös
+  278  cd Physik
+  279  cd comp_sem
+  280  git pull
+  281  cd ..
+  282  cd comp_sem_feedback
+  283  git pull
+  284  sudo apt update
+  285  sudo snap install mattermost-desktop
+  286  snap run mattermost-desktop
+  287  wget https://releases.mattermost.com/X.X.X/mattermost-X.X.X-linux-amd64.tar.g
+  288  sudo wget https://releases.mattermost.com/X.X.X/mattermost-X.X.X-linux-amd64.tar.g
+  289  sudo wget https://releases.mattermost.com/X.X.X/mattermost-X.X.X-linux-amd64.tar.gz
+  290  wget https://releases.mattermost.com/5.22.2/mattermost-5.22.2-linux-amd64.tar.gz
+  291  snap --help
+  292  snap disconnet mattermost-desktop
+  293  snap disconnect mattermost-desktop
+  294  \n    tar -xvzf mattermost*.gz
+  295  \n    sudo mv mattermost /opt
+  296  ls
+  297  cd mattermost
+  298  ls
+  299  cd Desktop/Physik
+  300  cd comp_sem
+  301  git pull
+  302  cd..
+  303  cd ..
+  304  cd comp_sem_feedback
+  305  git pull
+  306  free -m
+  307  cat /proc/meminfo
+  308  vmstat -s
+  309  top
+  310  htop
+  311  sudo apt install thunderbird
+  312  snap run mattermost-desktop
+  313  sudo apt-get update
+  314  sudo nano /etc/apt/sources.list
+  315  ls
+  316  sudo nano /etc/apt/sources.list
+  317  sudo apt-get update
+  318  sudo vim /etc/apt/sources.list
+  319  sudo apt-get update
+  320  sudo apt-get install r-base r-base-dev
+  321  R
+  322  sudo apt -y install r-base
+  323  R
+  324  defaults write org.R-project.R force.LANG en_US.UTF-8
+  325  R
+  326  locale-gen en_US.UTF-8
+  327  sudo locale-gen en_US.UTF-8
+  328  localedef -i en_US -f UTF-8 en_US.UTF-8
+  329  sudo localedef -i en_US -f UTF-8 en_US.UTF-8
+  330  export LANGUAGE=en_US.UTF-8
+  331  export LANG=en_US.UTF-8
+  332  export LC_ALL=en_US.UTF-8
+  333  locale-gen en_US.UTF-8
+  334  sudo locale-gen en_US.UTF-8
+  335  dpkg-reconfigure locales
+  336  sudo dpkg-reconfigure locales
+  337  R
+  338  sudo apt install libcurl4-openssl-dev 
+  339  R
+  340  sudo apt install libxml2-dev 
+  341  sudo locale-gen en_US en_US.UTF-8 de_DE de_DE.UTF-8 
+  342  sudo localedef -i de_DE -f UTF-8 en_DE.UTF-8
+  343  ~/.kde/env/setlocale.sh
+  344  nano ~/.kde/env/setlocale.sh
+  345  sudo dpkg-reconfigure locales
+  346  R
+  347  cd Desktop/Physik
+  348  ls
+  349  cd comp_sem
+  350  git pull
+  351  cd .. 
+  352  cd comp_sem
+  353  cd .. cd comp_sem
+  354  cd ..
+  355  cd comp_sem_feedback
+  356  git pull
+  357  ls
+  358  cd
+  359  redshift-gtk
+  360  redshift
+  361  sudo apt-get install plasma-widget-redshift 
+  362  sudo apt-get install plasma-applet-redshift-control 
+  363  sudo apt install plasma-widget-redshift 
+  364  cd Desktop/Physik/comp_sem
+  365  git pull
+  366  cd ..
+  367  cd comp_sem_feedback
+  368  git pull
+  369  nano Vollmann\ Tost\ preferences.txt
+  370  cd ..
+  371  cd comp_sem
+  372  open topics.xlsx
+  373  run topics.xlsx
+  374  cat topics.xlsx
+  375  sudo dmidecode -s system-serial-number
+  376  cd Desktop/Physik
+  377  ls
+  378  cd comp_sem_feedback
+  379  nano Topics_Shawn_Storm.txt
+  380  git add Topics_Shawn_Storm.txt
+  381  git commit -m "Push"
+  382  git push
+  383  R
+  384  sudo apt-get install --reinstall locales
+  385  su
+  386  cd Desktop/Physik/comp_sem
+  387  git pull
+  388  cd ..
+  389  cd comp_sem_feedback
+  390  git pull
+  391  vim Mabrouk_Priorities
+  392  free -m
+  393  top
+  394  watch -n 1 sensors
+  395  htop
+  396  sudo htop
+  397  watch -n 1 sensors
+  398  uname -r
+  399  sudo apt remove linux-image-unsigned-5.4.0-050400-generic linux-image-unsigned-5.4.0-050400-lowlatency
+  400  sudo apt install linux-generic
+  401  uname -r
+  402  sudo apt-cache search linux-image
+  403  uname -r
+  404  python
+  405  sudo apt update
+  406  sudo apt install python3-pip python3-dev
+  407  pip install jupyter
+  408  sudo pip install jupyter
+  409  python
+  410  python3
+  411  sudo apt install jupyter-notebook 
+  412  jupyter-notebook
+  413  cd Desktop/Physik
+  414  ls
+  415  cd comp_sem
+  416  git pull
+  417  sudo systemctl disable bluetooth.service
+  418  cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -
+  419  ~/.dropbox-dist/dropboxd
+  420  sudo apt-get install grub-customizer 
+  421  dpkg-reconfigure locales
+  422  sudo dpkg-reconfigure locales
+  423  sudo apt install smartmontools
+  424  sudo smartctl -i /dev/sdX
+  425  sudo smartctl -i /dev/s
+  426  sudo smartctl -i /dev/sda
+  427  sudo smartctl -t short -a /dev/sda
+  428  sudo smartctl -t short -a /dev/sda -h
+  429  sudo smartctl -t short -a /dev/sda
+  430  sudo smartctl -t short -a -d /dev/sda
+  431  sudo smartctl -i -d /dev/sda
+  432  sudo smartctl -i /dev/sda -d
+  433  sudo apt remove smartmontools
+  434  locale-gen en_US.UTF-8
+  435  sudo locale-gen en_US.UTF-8
+  436  localedef -i en_US -f UTF-8 en_US.UTF-8
+  437  sudo localedef -i en_US -f UTF-8 en_US.UTF-8
+  438  export LANGUAGE=en_US.UTF-8
+  439  export LANG=en_US.UTF-8
+  440  export LC_ALL=en_US.UTF-8
+  441  locale-gen en_US.UTF-8
+  442  sudo locale-gen en_US.UTF-8
+  443  dpkg-reconfigure locales
+  444  sudo dpkg-reconfigure locales
+  445  cd Desktop/Physik/comp_sem
+  446  git pull
+  447  cd Desktop
+  448  cd Physik/comp_sem
+  449  git pull
+  450  R
+  451  sudo apt install libssl-dev 
+  452  R
+  453  rm -rf /home/shawn/R/x86_64-pc-linux-gnu-library/3.5/00LOCK-farver
+  454  snap run mattermost-desktop
+  455  cd Desktop/Arbeit
+  456  ls
+  457  cd profiling
+  458  ls
+  459  cd ..
+  460  git clone git@github.com:christophM/iml.git
+  461  ls
+  462  cd iml
+  463  ls
+  464  cd R
+  465  ls
+  466  cd ..
+  467  cd vignettes
+  468  ls
+  469  R intro.Rmd
+  470  rstudio
+  471  sudo rstudio
+  472  rstubio-bin
+  473  rstudio
+  474  open -na Rstudio
+  475  R
+  476  ls
+  477  file.edit("intro.Rmd")
+  478  sudo apt-get update
+  479  sudo apt-get install r-base r-base-dev
+  480  sudo apt -y install r-base
+  481  cd
+  482  cd Downloads
+  483  sudo dpkg -i rstudio-1.2.5042-amd64.deb
+  484  sudo apt -f install
+  485  sudo dpkg -i rstudio-1.2.5042-amd64.deb
+  486  rstudio
+  487  R
+  488  sudo nano /etc/apt/sources.list
+  489  sudo apt-get update
+  490  sudo apt-get -t buster-backports install r-base r-base-dev
+  491  sudo nano /etc/apt/sources.list
+  492  sudo apt-get update
+  493  sudo apt-get -t buster-backports install r-base r-base-dev
+  494  sudo apt-get update
+  495  sudo nano /etc/apt/sources.list
+  496  sudo apt-get update
+  497  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
+  498  sudo add-apt-repository 'deb [arch=amd64,i386] https://cran.rstudio.com/bin/linux/ubuntu xenial/'
+  499  sudo apt-get update
+  500  sudo apt-get install r-base
+  501  R
+  502  sudo nano /etc/apt/sources.list
+  503  sudo apt install dirmngr
+  504  sudo apt-key adv --keyserver keys.gnupg.net --recv-key 'E19F5F87128899B192B1A2C2AD5F960A256A04AF'
+  505  sudo apt update
+  506  sudo apt install r-base
+  507  R
+  508  sudo apt update
+  509  sudo apt upgrade
+  510  cd Desktop/Physik/BA
+  511  ls
+  512  git clone https://github.com/openai/gym.git
+  513  cd gym
+  514  pip install -e .
+  515  pip3 -V
+  516  pip3 install -e
+  517  nano .bash_profile
+  518  cd
+  519  nano .bash_profile
+  520  ls -a
+  521  ls
+  522  cd Desktop
+  523  ls
+  524  cd Physik/comp_sem
+  525  git pull
+  526  pip install gym
+  527  pip --version
+  528  V
+  529  python -m pip --version
+  530  pip2 --version
+  531  python2 -m pip --version
+  532  pip3 --version
+  533  python3 -m pip --version
+  534  cd
+  535  nano .bashrc
+  536  which pip
+  537  which pythoin
+  538  which python
+  539  sudo apt install pip
+  540  sudo apt-get install software-properties-common
+  541  sudo apt-add-repository universe
+  542  sudo apt-get update
+  543  sudo apt-get install python-pip
+  544  py -m pip --version
+  545  python3 -m pip install --user --upgrade pip
+  546  python3 -m pip --version
+  547  python3 -m pip install --user virtualenv
+  548  python3 -m venv env
+  549  sudo apt install apt-get install python3-venv\n
+  550  sudo apt-get install python3-venv\n
+  551  python3 -m venv env
+  552  env
+  553  pip
+  554  ls
+  555  cd Desktop/Physik/BA/gym
+  556  pip install -e
+  557  pip install -e .
+  558  python --version
+  559  sudo su
+  560  jupyter-notebook
+  561  cd ..
+  562  ls
+  563  cd ..
+  564  ls
+  565  cd BA
+  566  mkdir Code/
+  567  cd ..
+  568  ls
+  569  cd BA
+  570  jupyter-notebook
+  571  free -m
+  572  htop
+  573  top
+  574  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+  575  \tsudo apt install ./google-chrome-stable_current_amd64.deb
+  576  /opt/cisco/anyconnect/bin/vpnui
+  577  cd Downloads
+  578  ls
+  579  cd ..
+  580  ls
+  581  cd Downloads
+  582  ls
+  583  cd anyconnect-linux64-4.6.03049
+  584  cd vpn
+  585  sudo ./vpn_install.sh
+  586  su -
+  587  sudo apt-get install x2goclient
+  588  ls
+  589  cd
+  590  vim ~/.zshrc
+  591  sourch ~/.zshrc
+  592  source ~/.zshrc
+  593  vim ~/.zshrc
+  594  source ~/.zshrc
+  595  vim ~/.zshrc
+  596  source ~/.zshrc
+  597  ls -a
+  598  vim .bashrc
+  599  vim ~/.zshrc
+  600  sour
+  601  ls
+  602  cd..
+  603  ls
+  604  cd ..
+  605  ls
+  606  cd ..
+  607  ls
+  608  cd usr
+  609  ls
+  610  cd ..
+  611  cd
+  612  vim ~/.zshrc
+  613  source ~/.zshrc
+  614  vim ~/.zshrc
+  615  ls
+  616  cd env
+  617  ls
+  618  cd bin
+  619  ls
+  620  vim ~/.zshrc
+  621  source ~/.zshrc
+  622  conda
+  623  conda --version
+  624  pip uninstall jupyter
+  625  sudo apt apt-get install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 libxtst6
+  626  sudo apt-get install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 libxtst6
+  627  cd /tmp
+  628  ls
+  629  curl -0 https://repo.anaconda.com/archive/Anaconda3-2020.02-Linux-x86_64.sh
+  630  ls
+  631  curl -0 https://repo.anaconda.com/archive/Anaconda3-2020.02-Linux-x86_64.sh
+  632  cd
+  633  bash ~/Downloads/Anaconda3-2020.02-Linux-x86_64.sh
+  634  ls
+  635  cd
+  636  conda
+  637  jupyter
+  638  jupyter-run
+  639  conda install -c pytorch pytorch
+  640  snap mattermost-desktop
+  641  snap run mattermost-desktop
+  642  pip install strawberryfields --upgrade
+  643  termite
+  644  snap run mattermost-desktop
+  645  free -m
+  646  htop
+  647  top
+  648  ~/.dropbox-dist/dropboxd
+  649  snap run mattermost-desktop
+  650  sudo -i
+  651  ls
+  652  cd Downloads
+  653  tar xvf 8.1.9.1-TIV-TSMBAC-LinuxX86_DEB.tar
+  654  dpkg -i gskcrypt64_8.0-55.9.linux.x86_64.deb
+  655  sudo dpkg -i gskcrypt64_8.0-55.9.linux.x86_64.deb
+  656  dpkg -i tivsm-api64.amd64.deb
+  657  sudo dpkg -i tivsm-api64.amd64.deb
+  658  ls
+  659  sudo apt install gskssl64
+  660  sudo dpkg -i gskssl64_8.0-55.9.linux.x86_64.deb
+  661  sudo dpkg -i tivsm-api64.amd64.deb
+  662  sudo dpkg -i tivsm-ba.amd64.deb
+  663  sudo apt-get install openjdk-7-jre icedtea-7-plugin
+  664  cd Downloads
+  665  sudo apt-get install openjdk-7-jre icedtea-7-plugin
+  666  lrz
+  667  sudo apt-get install openjdk-7-jre icedtea-7-plugin
+  668  sudo apt-get install openjdk-8-jre
+  669  tar xvf openjdk-13*_bin.tar.gz
+  670  tar xvf openjdk-14.0.1_linux-x64_bin.tar.gz
+  671  sudo apt install icedtea-plugin
+  672  sudo apt install icedtea-web
+  673  sudo nano /etc/apt/sources.list.d
+  674  cd /etc/apt/sources.list.d
+  675  ls
+  676  rm x2go.list.save.1
+  677  ls
+  678  rm x2go.list.save.1
+  679  sudo rm x2go.list.save.1
+  680  sudo apt install icedtea-web
+  681  sudo apt install openjdk-11-jre
+  682  sudo apt-get install icedtea-plugin
+  683  sudo apt-get install  icedtea-web 
+  684  sudo aptinstall  icedtea-web 
+  685  sudo apt install  icedtea-web 
+  686  sudo aptitude install  icedtea-web 
+  687  sudo aptitude install  icedtea-netx
+  688  sudo apt install  icedtea-netx
+  689  cd
+  690  lrz
+  691  cd Downloads
+  692  ls
+  693  dpkg -i gskcrypt64_8.0-55.9.linux.x86_64.deb
+  694  sudo dpkg -i gskcrypt64_8.0-55.9.linux.x86_64.deb
+  695  sudo dpkg -i tivsm-api64.amd64.deb
+  696  dpkg -i tivsm-ba.amd64.deb
+  697  sudo dpkg -i tivsm-ba.amd64.deb
+  698  cd Dropbox
+  699  ls
+  700  sudo wget -O /usr/local/bin/dropbox "https://www.dropbox.com/download?dl=packages/dropbox.py"
+  701  sudo chmod +x /usr/local/bin/dropbox
+  702  dropbox
+  703  dropbox help running
+  704  dropbox status
+  705  dropbox start
+  706  dropbox status
+  707  dropbox stop
+  708  dropbox start
+  709  dropbox
+  710  dropbox status
+  711  dropbox stop
+  712  R
+  713  cd Desktop/Arbeit
+  714  ls
+  715  cd profiling
+  716  ls
+  717  vim profiling.txt
+  718  ls
+  719  cd Desktop
+  720  ls
+  721  cd Arbeit
+  722  cd profiling
+  723  ls
+  724  ls -a
+  725  nano .profiling.txt.swp
+  726  cd Desktop/Arbeit/profiling
+  727  ls -a
+  728  vim profiling.txt
+  729  nano profiling.txt
+  730  vim profiling.txt
+  731  rm .profiling.txt.swp
+  732  vim profiling.txt
+  733  ls -ltr
+  734  vim profiling.txt
+  735  cd Desktop/Arbeit/profiling
+  736  ls
+  737  ls -a
+  738  R
+  739  snap run mattermost-desktop
+  740  R
+  741  snap run mattermost-desktop
+  742  ls
+  743  ls -l /dev/input/by-id
+  744  jupyter
+  745  jupyter-notebook
+  746  conda install -c powerai gym
+  747  git clone https://github.com/openai/gym
+  748  cd gym
+  749  pip install -e
+  750  pip install -e .
+  751  ls
+  752  cd ..
+  753  ls
+  754  rm linux-*
+  755  ls
+  756  rm skypeforlinux-64.deb
+  757  rm test.Rprofvis
+  758  ls
+  759  nano wget-log
+  760  rm wget-log
+  761  ls
+  762  rm mattermost-5.22.2-linux-amd64.tar.gz
+  763  ls
+  764  rm google-chrome-stable_current_amd64.deb
+  765  ls
+  766  nano Screenshot_20200514_133258.png
+  767  ls
+  768  python3
+  769  python 
+  770  cd gym
+  771  pip 3 install -e .
+  772  pip3 install -e .
+  773  conda install -c powerai gym
+  774  ls
+  775  cd anaconda3
+  776  ls
+  777  cd lib
+  778  ls
+  779  pip uninstall gym
+  780  ls 
+  781  cd ..
+  782  rm -rf gym
+  783  ls
+  784  cd Downloads
+  785  cd
+  786  conda install -c powerai gym
+  787  conda config --add channels conda-forge
+  788  conda install -c powerai gym
+  789  snap run mattermost-desktop
+  790  pip-autoremove jupyter -y
+  791  pip -autoremove jupyter -y
+  792  pip autoremove jupyter -y
+  793  pip install pip-autoremove
+  794  pip -autoremove jupyter -y
+  795  pip-autoremove jupyter -y
+  796  htop
+  797  top
+  798  snap run mattermost-desktop
+  799  htop
+  800  top
+  801  snap run mattermost-desktop
+  802  ls
+  803  curl -sS https://download.spotify.com/debian/pubkey.gpg | sudo apt-key add - 
+  804  echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
+  805  sudo apt-get update && sudo apt-get install spotify-client
+  806  spotify
+  807  sudo apt-get update
+  808  sudo nano /etc/apt/sources.list
+  809  sudo apt-get install ppa-purge
+  810  sudo add-apt-repository --remove ppa:launchpad.net/kirillshkrogalev/ffmpeg-next/ubuntu groovy/ppa
+  811  sudo add-apt-repository --remove ppa:launchpad.net/kirillshkrogalev/ffmpeg-next/ubuntu/ppa
+  812  sudo apt-get update
+  813  sudo add-apt-repository --remove ppa:ffmpeg-next/ubuntu\n
+  814  sudo apt install ffmpeg
+  815  sudo apt update
+  816  sudo add-apt-repository --remove ppa:ffmpeg-next/ubuntu\n
+  817  \tgrep ^ /etc/apt/sources.list /etc/apt/sources.list.d/*
+  818  sudo apt update
+  819  sudo nano /etc/apt/sources.list.d
+  820  sudo rm -rf /etc/apt/sources.list.d/kirillshkrogalev-ubuntu-ffmpeg-next-groovy.list*
+  821  sudo rm -rf /etc/apt/sources.list.d/obsproject-ubuntu-obs-studio-groovy.list*
+  822  ls
+  823  sudo apt update
+  824  sudo rm -rf /etc/apt/sources.list.d/skype-stable.list*
+  825  sudo apt update
+  826  sudo apt-get update && sudo apt-get install spotify-client
+  827  sudo nano /etc/pulse/daemon.conf
+  828  cd /tmp
+  829  ls
+  830  kwriteconfig -file kmixrc -group Global -key VolumeOverdrive -type bool true
+  831  top
+  832  kwriteconfig -file kmixrc -group Global -key VolumeOverdrive -type bool false
+  833  top
+  834  kwriteconfig
+  835  kwriteconfig -file kmixrc
+  836  kwriteconfig -file kmixrc -group Global -key VolumeOverdrive -type bool
+  837  python
+  838  rm -rf ~/anaconda3
+  839  sudo nano ~/.bash
+  840  sudo nano ~/.zshrc
+  841  python
+  842  python --version
+  843  ls /usr/bin/python*
+  844  . ~/.bashrc
+  845  sudo nano ~/.bashrc
+  846  sudo nano ~/.zshrc
+  847  alias python='/usr/bin/python2.7'
+  848  python
+  849  python3
+  850  python
+  851  python3
+  852  jupyter notebook
+  853  pip install pip-autoremove
+  854  pip-autoremove jupyter -y
+  855  pip3 uninstall jupyter 
+  856  pip3 uninstall notebook
+  857  pip uninstall notebook
+  858  conda remove jupyter jupyter-client jupyter-console jupyter-core
+  859  pip3 install pip-autoremove
+  860  pip-autoremove jupyter -y
+  861  pip install pip-autoremove
+  862  pip-autoremove jupyter -y
+  863  python3
+  864  sudo apt-get remove jupyter-client
+  865  sudo apt-get remove --auto-remove jupyter-client
+  866  sudo apt-get purge jupyter-client  
+  867  sudo apt-get purge --auto-remove jupyter-client  
+  868  sudo apt-get purge jupyter-cli
+  869  sudo apt-get remove --auto-remove jupyter-notebook
+  870  jupyter notebook
+  871  jupyter
+  872  sudo apt-get install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 libxtst6
+  873  bash ~/Downloads/Anaconda3-2020.02-Linux-x86_64.sh
+  874  conda init
+  875  conda
+  876  pip uninstall gym
+  877  pip freeze
+  878  pip list
+  879  pip uninstall conda
+  880  conda list
+  881  conda create --name gym
+  882  gym
+  883  conda install -n gym  -c powerai gym
+  884  conda update -n base -c defaults conda\n
+  885  activate gym
+  886  conda install -c anaconda jupyter
+  887  jupyter notebook
+  888  activate gym
+  889  jupyter notebook
+  890  conda activate gym
+  891  jupyter notebook
+  892  conda deativate
+  893  conda deactivate
+  894  conda activate gym
+  895  jupyter notebook
+  896  conda activate gym
+  897  python -m ipykernel install --user --name gym --display-name "Python gym"
+  898  conda install jupyter
+  899  conda install ipykernel
+  900  python -m ipykernel install --user --name gym
+  901  jupyter notebook
+  902  top
+  903  ls
+  904  cd Dropbox
+  905  sudo wget -O /usr/local/bin/dropbox "https://www.dropbox.com/download?dl=packages/dropbox.py"
+  906  sudo chmod +x /usr/local/bin/dropbox
+  907  dropbox
+  908  dropbox status
+  909  dropbox autostart
+  910  dropbox autostart y
+  911  dropbox status
+  912  dropbox start
+  913  dropbox status
+  914  dropbox start
+  915  dropbox status
+  916  ls
+  917  cd Quanten_KI_Bachelorarbeit
+  918  CD Reinforcement\ Learning\ -\ Deep\ RL\ -\ Quantum\ RL
+  919  ls
+  920  cd Reinforcement\ Learning\ -\ Deep\ RL\ -\ Quantum\ RL
+  921  ls
+  922  sudo nano ~/.config/autostart
+  923  ls ~/.config/autostart
+  924  snap
+  925  snap remove mattermost-desktop
+  926  snap run mattermost-desktop
+  927  libre
+  928  libreoffice
+  929  top
+  930  sudo systemctl disable bluetooth.service
+  931  sudo apt update
+  932  sudo apt install software-properties-common apt-transport-https curl
+  933  synaptics
+  934  libinput
+  935  cd Downloads
+  936  ls
+  937  sudo apt install ./zoom_amd64.deb
+  938  zoom
+  939  top
+  940  R
+  941  cd Desktop/Arbeit/profiling
+  942  vim iml_prof.R
+  943  R
+  944  kill Rstudio
+  945  killall rstudio
+  946  conda activate gym
+  947  jupyter notebook
+  948  conda install tensorflow
+  949  jupyter
+  950  jupyter-notebook
+  951  conda install -n gym tensorflow
+  952  conda activate gym
+  953  jupyter-notebook
+  954  conda activate gym
+  955  jupyter-notebook
+  956  sudo dpkg -i Downloads/protonmail-bridge_1.2.7-1_amd64.deb sudo apt-get install -f
+  957  sudo dpkg -i Downloads/protonmail-bridge_1.2.7-1_amd64.deb
+  958  sudo apt-get install -f
+  959  cd Downloads
+  960  sudo apt install ./protonmail-bridge_1.2.7-1_amd64.deb
+  961  python
+  962  conda install -n -c conda-forge tensorflow gym
+  963  conda activate gym
+  964  conda update conda
+  965  conda deactivate
+  966  conda update conda
+  967  conda config --set restore_free_channel true
+  968  conda activate gym
+  969  conda activaze die muschi
+  970  conda activate die muschi
+  971  conda activate gym
+  972  ls
+  973  cd anaconda3/bin
+  974  ls
+  975  cd ..
+  976  cd pkgs
+  977  cp binutils_impl_linux-64-2.34-h53a641e_2/bin  /home/shawn/anaconda3/bin
+  978  cp -r binutils_impl_linux-64-2.34-h53a641e_2/bin  /home/shawn/anaconda3/bin
+  979  cd
+  980  cd anaconda3/bin
+  981  ls
+  982  conda activate gym
+  983  conda install -c conda-forge tensorflow
+  984  conda inf
+  985  conda info
+  986  ls
+  987  top
+  988  sudo apt-get remove xserver-xorg-input-synaptics; sudo apt-get install xserver-xorg-input-libinput
+  989  libinput-gestures-setup autostart
+  990  gesture-manager
+  991  sudo apt-get install libinput-tools
+  992  git clone https://github.com/bulletmark/libinput-gestures.git
+  993  cd libinput-gestures
+  994  sudo make install 
+  995  libinput-gestures-setup autostart
+  996  libinput-gestures-setup start
+  997  sudo gpasswd -a $shawn input
+  998  sudo gpasswd -a shawn input
+  999  sudo apt-get install xdotool wmctrl
+ 1000  sudo apt-get install libinput-tools
+ 1001  cd libinput-gestures
+ 1002  sudo ./libinput-gestures-setup install
+ 1003  libinput-gestures-setup autostart
+ 1004  libinput-gestures-setup start
+ 1005  ~/.config/libinput-gestures.conf
+ 1006  cp /etc/libinput-gestures.conf ~/.config/libinput-gestures.conf
+ 1007  nano ~/.config/libinput-gestures.conf
+ 1008  DCCCDDDC
+ 1009  nano ~/.config/libinput-gestures.conf
+ 1010  CDC
+ 1011  nano ~/.config/libinput-gestures.conf
+ 1012  CCCDDDDDDDDDD
+ 1013  nano ~/.config/libinput-gestures.conf
+ 1014  DDCC
+ 1015  nano ~/.config/libinput-gestures.conf
+ 1016  DCC
+ 1017  nano ~/.config/libinput-gestures.conf
+ 1018  rm ~/.config/libinput-gestures.conf
+ 1019  cp /etc/libinput-gestures.conf ~/.config/libinput-gestures.conf
+ 1020  nano ~/.config/libinput-gestures.conf
+ 1021  top
+ 1022  sudo apt-get install xf86-input-synaptics 
+ 1023  sudo apt-get install xserver-xorg-input-synaptics
+ 1024  sudo apt-get install xserver-xorg-input-synaptidsfacs
+ 1025  libinput-gestures-setup stop
+ 1026  sudo apt-get install tlp
+ 1027  libinput-gestures-setup autostart
+ 1028  libinput-gestures-setup tart
+ 1029  libinput-gestures-setup start
+ 1030  kill vlc
+ 1031  killall vlc
+ 1032  top
+ 1033  <sudo apt-get install dmidecode 
+ 1034  sudo apt-get install dmidecode 
+ 1035  sudo apt-get install lm-sensors
+ 1036  lm-sensors
+ 1037  sensors
+ 1038  sudo apt-cache search linux-image
+ 1039  cd /tmp/
+ 1040  uname -r
+ 1041  sudo nano /etc/apt/sources.list
+ 1042  sudo apt update
+ 1043  sudo apt -t buster-backports install linux-image-amd64
+ 1044  sudo reboot
+ 1045  sensors
+ 1046  conda create -n firedup python=3.7
+ 1047  source activate firedup
+ 1048  sudo apt update && sudo apt install libopenmpi-dev
+ 1049  git clone https://github.com/kashif/firedup.git
+ 1050  cd firedup
+ 1051  pip install -e .
+ 1052  ^[[200~python -m fireup.run ppo --hid "[32,32]" --env LunarLander-v2 --exp_name installtest --gamma 0.999~
+ 1053  python -m fireup.run ppo --hid "[32,32]" --env LunarLander-v2 --exp_name installtest --gamma 0.999
+ 1054  cd 
+ 1055  cd ..
+ 1056  ls
+ 1057  cd ..
+ 1058  ls
+ 1059  cd mnt
+ 1060  ls 
+ 1061  cd D0C0821CC0820944
+ 1062  ls
+ 1063  cd Desktop
+ 1064  ös
+ 1065  ls
+ 1066  cd Physik
+ 1067  ls
+ 1068  cd comp_sem
+ 1069  git pull
+ 1070  conda create -n spinningup python=3.6
+ 1071  sudo apt-get update && sudo apt-get install libopenmpi-dev
+ 1072  git clone https://github.com/openai/spinningup.git
+ 1073  cd spinningup
+ 1074  pip install -e .
+ 1075  conda activate spinningup
+ 1076  python -m spinup.run ppo --hid "[32,32]" --env LunarLander-v2 --exp_name installtest --gamma 0.999
+ 1077  conda install -n spinningup tensorflow
+ 1078  python -m spinup.run ppo --hid "[32,32]" --env LunarLander-v2 --exp_name installtest --gamma 0.999
+ 1079  conda install -n spinningup powerai gym
+ 1080  conda install -c powerai gym
+ 1081  python -m spinup.run ppo --hid "[32,32]" --env LunarLander-v2 --exp_name installtest --gamma 0.999
+ 1082  conda install -n spinningup tensorflow=1.13
+ 1083  conda remove --name spinningup -all
+ 1084  conda remove --name spinningup --all
+ 1085  conda deactivate
+ 1086  conda remove --name spinningup --all
+ 1087  conda create -n spinningup python=3.7
+ 1088  conda activate spinningup
+ 1089  conda install -n spinningup tensorflow
+ 1090  conda activate spinningup
+ 1091  conda install -c powerai gym
+ 1092  conda install mpi4py
+ 1093  python -m spinup.run ppo --hid "[32,32]" --env LunarLander-v2 --exp_name installtest --gamma 0.999
+ 1094  conda install tensorflow
+ 1095  conda deactivate
+ 1096  conda remove --name spinningup --all
+ 1097  sudo apt-get install python-mpi4py,
+ 1098  sudo apt-get install python-mpi4py
+ 1099  pip install -e .
+ 1100  conda create -n spinningup python=3.6
+ 1101  sudo apt-get update && sudo apt-get install libopenmpi-dev
+ 1102  python -m spinup.run ppo --hid "[32,32]" --env LunarLander-v2 --exp_name installtest --gamma 0.999
+ 1103  conda remove --name spinningup --all
+ 1104  sudo apt-get install python-mpi4py
+ 1105  sudo apt-get update && sudo apt-get install libopenmpi-dev
+ 1106  ls
+ 1107  cd ..
+ 1108  rm -rf spinningup
+ 1109  git clone https://github.com/openai/spinningup.git
+ 1110  cd spinningup
+ 1111  pip install -e .
+ 1112  mount -o remount,size=5G /tmp/
+ 1113  sudo mount -o remount,size=5G /tmp/
+ 1114  su 
+ 1115  export TMPDIR=$HOME/tmp
+ 1116  cd spinningup
+ 1117  pip install -e .
+ 1118  export TMPDIR=/home/shawn/tmp
+ 1119  pip install -e .
+ 1120  conda activate spinningup
+ 1121  conda create -n spinningup python=3.6
+ 1122  conda activate spinningup
+ 1123  python -m spinup.run ppo --hid "[32,32]" --env LunarLander-v2 --exp_name installtest --gamma 0.999
+ 1124  pip install -e .
+ 1125  python -m spinup.run ppo --hid "[32,32]" --env LunarLander-v2 --exp_name installtest --gamma 0.999
+ 1126  top
+ 1127  python -m spinup.run test_policy data/installtest/installtest_s0
+ 1128  python -m spinup.run plot data/installtest/installtest_s0
+ 1129  killall vlc
+ 1130  sudo nano /etc/fstab 
+ 1131  cd /tmp
+ 1132  ls
+ 1133  cd tmp
+ 1134  ls
+ 1135  ls ..
+ 1136  ls
+ 1137  cd ..
+ 1138  rm -rf tmp
+ 1139  cd ..
+ 1140  ls
+ 1141  cd ..
+ 1142  ls
+ 1143  cd tmp
+ 1144  ls
+ 1145  cd ..
+ 1146  ls
+ 1147  cd media
+ 1148  ls
+ 1149  cd shawn
+ 1150  ls
+ 1151  cd 1f7f92dd-4383-4773-a5c2-b8e2202a03b2
+ 1152  ls
+ 1153  cd ..
+ 1154  ls
+ 1155  cd 1f7f92dd-4383-4773-a5c2-b8e2202a03b2
+ 1156  rm all
+ 1157  cd ..
+ 1158  rm 1f7f92dd-4383-4773-a5c2-b8e2202a03b2/*
+ 1159  sudo rm 1f7f92dd-4383-4773-a5c2-b8e2202a03b2/*
+ 1160  sudo rm -rf 1f7f92dd-4383-4773-a5c2-b8e2202a03b2/*
+ 1161  cd 1f7f92dd-4383-4773-a5c2-b8e2202a03b2
+ 1162  ls -a
+ 1163  rm -rf .org.chromium.Chromium.iYvYk5
+ 1164  rm .touchpaddefaults
+ 1165  rm -rf .font-unix
+ 1166  sudo rm -rf .font-unix
+ 1167  sudo rm -XI*
+ 1168  sudo rm .X*
+ 1169  sudo rm .X*/
+ 1170  sudo rm -rf .X*
+ 1171  ls
+ 1172  ls -a
+ 1173  ls -ltr
+ 1174  ls -a
+ 1175  rm -rf .T*
+ 1176  sudo rm -rf .T*
+ 1177  ls
+ 1178  ls -a
+ 1179  rm -rf .ICE-unix
+ 1180  sudo rm -rf .ICE-unix
+ 1181  ls
+ 1182  cd Desktop/Arbeit/profiling
+ 1183  ls
+ 1184  Rscript rprof.R
+ 1185  top
+ 1186  ls
+ 1187  Rplots.pdf
+ 1188  open Rplots.pdf
+ 1189  okular Rplots.pdf
+ 1190  Rscript rprof.R
+ 1191  R
+ 1192  R --version
+ 1193  Rscript rprof.R
+ 1194  okular Rplots.pdf
+ 1195  Rscript rprof.R
+ 1196  kcmshell5
+ 1197  kcmshell5 kcmbaloofile
+ 1198  cd ..
+ 1199  cd 
+ 1200  cd ..
+ 1201  ls
+ 1202  cd media
+ 1203  ls
+ 1204  cd shawn
+ 1205  ös
+ 1206  ls
+ 1207  cd 1f7f92dd-4383-4773-a5c2-b8e2202a03b2
+ 1208  ls
+ 1209  cd
+ 1210  ls
+ 1211  cd ..
+ 1212  ls
+ 1213  cd mnt
+ 1214  ls
+ 1215  sudo nano ~/.config/baloofilerc
+ 1216  conda activate spinningup
+ 1217  python
+ 1218  R
+ 1219  cd Desktop/Arbeit
+ 1220  ls
+ 1221  cd profiling
+ 1222  ls
+ 1223  Rstudio rprof.R
+ 1224  cd /mnt/D0C0821CC0820944
+ 1225  ls
+ 1226  cd Downloads
+ 1227  ls
+ 1228  pdfunite Notenspiegel.pdf S_Notenspiegel.pdf transkript.pdf
+ 1229  conda activate spinningup
+ 1230  jupyter-notebook
+ 1231  conda activate gym
+ 1232  jupyter-notebook
+ 1233  conda activate gym
+ 1234  jupyter-notebook
+ 1235  cd Desktop/Physik/BA
+ 1236  ls
+ 1237  git clone https://github.com/ashutoshkrjha/Cartpole-OpenAI-Tensorflow.git
+ 1238  cd Cartpole-OpenAI-Tensorflow
+ 1239  ls
+ 1240  python cartpole.py
+ 1241  cd ..
+ 1242  rm -rf Cartpole-OpenAI-Tensorflow
+ 1243  git clone https://github.com/IlhwanHwang/gym-cartpole-tensorflow.git
+ 1244  conda activate gym
+ 1245  cd gym-cartpole-tensorflow
+ 1246  ls
+ 1247  python main.py
+ 1248  ls
+ 1249  vim main.py
+ 1250  nano main.py
+ 1251  killall Konqueror
+ 1252  kill konqueror
+ 1253  killall -list
+ 1254  kill -list
+ 1255  kill
+ 1256  kill -help
+ 1257  kill -l
+ 1258  cd Downloads
+ 1259  ls
+ 1260  cd 
+ 1261  cd
+ 1262  ls
+ 1263  cd ..
+ 1264  ls
+ 1265  cd
+ 1266  cd /mnt/D0C0821CC0820944/Downloads
+ 1267  ls
+ 1268  tar xf tor-browser-linux64-9.5_en-US.tar.xz
+ 1269  ./configure
+ 1270  make
+ 1271  sudo apt-get install xz-utils
+ 1272  tar xvfj tor-browser_en-US
+ 1273  cd .
+ 1274  cd ..
+ 1275  ls
+ 1276  cd Downloads
+ 1277  ls
+ 1278  tar xvfj tor-browser-linux64-9.5_en-US.tar.xz
+ 1279  tar -xvf tor-browser-linux64-9.5_en-US.tar.xz
+ 1280  make
+ 1281  ./configure
+ 1282  ls
+ 1283  cd tor-browser_en-US
+ 1284  ls
+ 1285  ./configure
+ 1286  cd Browser/
+ 1287  ls
+ 1288  ./configure
+ 1289  cd ..
+ 1290  ls
+ 1291  cd ..
+ 1292  ls
+ 1293  cd tor-browser_en-US/Browser
+ 1294  ls
+ 1295  cd TorBrowser
+ 1296  ls
+ 1297  ./configure
+ 1298  sudo add-apt-repository universe && sudo apt update
+ 1299  cd
+ 1300  sudo add-apt-repository universe && sudo apt update
+ 1301  sudo apt install tor
+ 1302  sudo apt install torbrowser
+ 1303  sudo -i
+ 1304  torbrowser-launcher
+ 1305  export LC_ALL="en_US.UTF-8"
+ 1306  export LC_CTYPE="en_US.UTF-8"
+ 1307  sudo dpkg-reconfigure locales
+ 1308  locale -a
+ 1309  sudo dpkg-reconfigure locales
+ 1310  locale -a
+ 1311  torbrowser-launcher
+ 1312  conda activate gym
+ 1313  conda install tensorflow
+ 1314  conda activate gym
+ 1315  jupyter-notebook
+ 1316  anaconda version
+ 1317  conda install pillow
+ 1318  conda --version
+ 1319  conda info
+ 1320  conda deactive
+ 1321  conda deactivate
+ 1322  conda info
+ 1323  ls
+ 1324  cd anaconda3
+ 1325  ls
+ 1326  cd lib/python3.7/site-packages/conda/gateways/connection
+ 1327  ls
+ 1328  vim __init__.py
+ 1329  nano __init__.py
+ 1330  conda activate gym
+ 1331  cd lib/python3.7/site-packages/conda/gateways/connection
+ 1332  cd anaconda3
+ 1333  cd lib/python3.7/site-packages/conda/gateways/connection
+ 1334  nano __init__.py
+ 1335  conda install conda=4.5.8
+ 1336  anaconda-navigator
+ 1337  conda install conda=4.5.8
+ 1338  conda update conda
+ 1339  conda activate gym
+ 1340  pip install pillow
+ 1341  cd
+ 1342  jupyter-notebook
+ 1343  pip install image
+ 1344  ls
+ 1345  python
+ 1346  jupyter-notebook
+ 1347  pip install --upgrade pip
+ 1348  jupyter-notebook
+ 1349  pip install pillow
+ 1350  pip install Pillow
+ 1351  conda activate gym
+ 1352  pip install pillow
+ 1353  pip install Pillow
+ 1354  conda help
+ 1355  sudo apt-get install python-pil
+ 1356  python
+ 1357  conda activate gym
+ 1358  conda install torchvision -c soumith
+ 1359  conda install torchvision -c pytorch
+ 1360  conda create -y -n test numpy powerai gym anaconda pillow pytorch torchvision conda-forge matplotlib
+ 1361  conda create -y -n test numpy -c powerai gym -c anaconda pillow -c pytorch torchvision -c conda-forge matplotlib
+ 1362  conda create -y -n test numpy -c "powerai gym" " anaconda pillow" "pytorch torchvision" matplotlib
+ 1363  conda create -y -n test 
+ 1364  conda activate test
+ 1365  conda install conda=4.5.8
+ 1366  conda install python=3.7
+ 1367  ^[[200~ conda install -c conda-forge/label/testing matplotlib ~
+ 1368  conda activate test
+ 1369  pip install gym
+ 1370  python
+ 1371  jupyter-notebook
+ 1372  conda activate test
+ 1373  conda install -c anaconda ipykernel
+ 1374  conda activate gym
+ 1375  conda create .y .n eee 
+ 1376  conda deactivate
+ 1377  conda create .y .n eee 
+ 1378  conda create .y -n eee 
+ 1379  conda activate eee
+ 1380  conda activate ee
+ 1381  conda create -y -n eee 
+ 1382  conda activate eee
+ 1383  conda config --set allow_conda_downgrades true
+ 1384  conda install conda=4.5.8
+ 1385  conda activate gym
+ 1386  conda install conda=4.5.8 conda install -c pytorch torchvision 
+ 1387  conda -v
+ 1388  conda -version
+ 1389  conda --version
+ 1390  conda config --set allow_conda_downgrades true
+ 1391  conda install conda=4.5.8 conda
+ 1392  conda install conda=4.5.8
+ 1393  conda activate gym
+ 1394  conda --version
+ 1395  conda install conda=4.5.8
+ 1396  conda config --set allow_conda_downgrades true
+ 1397  conda deactivate
+ 1398  conda config --set allow_conda_downgrades true
+ 1399  conda install conda=4.5.8
+ 1400  conda install conda=4.6
+ 1401  ls
+ 1402  rm -rf anaconda3
+ 1403  cd /mnt/D0C0821CC0820944
+ 1404  ls
+ 1405  cd Downloads
+ 1406  chmod +x Anaconda3-2019.03-Linux-x86_64.sh
+ 1407  ./Anaconda3-2019.03-Linux-x86_64.sh
+ 1408  \n\nconda install pytorch torchvision cudatoolkit=10.2 -c pytorch\n\n
+ 1409  conda --version
+ 1410  conda create -y -n gym 
+ 1411  conda activate gym
+ 1412  \n\nconda install pytorch torchvision cudatoolkit=10.2 -c pytorch\n\n
+ 1413  conda activate gym
+ 1414  conda search gym --info
+ 1415  python
+ 1416  conda install python=3.7
+ 1417  torbrowser-launcher
+ 1418  python
+ 1419  conda create -n gymm
+ 1420  conda activate gymm
+ 1421  conda create -n gymm
+ 1422  conda activate gymm
+ 1423  conda create -n gymmm -c powerai gym
+ 1424  conda install pip
+ 1425  conda deactivate 
+ 1426  conda activate gym
+ 1427  conda install pi
+ 1428  conda install pip
+ 1429  pip install gym
+ 1430  python
+ 1431  conda install -c anaconda ipykernel
+ 1432  python -m ipykernel install --user --name=gym
+ 1433  jupyter-notebook
+ 1434  jupyter
+ 1435  jupyter notebook
+ 1436  jupyter-run
+ 1437  pip install --user ipykernel
+ 1438  python -m ipykernel install --user --name=gym
+ 1439  conda activate gym
+ 1440  jupyter-kernel
+ 1441  conda deactivate
+ 1442  conda activate gym
+ 1443  jupyter
+ 1444  jupyter notebook
+ 1445  conda activate gym
+ 1446  jupyter notebook
+ 1447  jupyter-notebook
+ 1448  export PATH=$HOME/anaconda3/bin:$PATH
+ 1449  jupyter-notebook
+ 1450  conda activate gym
+ 1451  conda remove pytorch torchvision -y
+ 1452  pip uninstall torch -y
+ 1453  pip uninstall torch -y 
+ 1454  conda install pytorch torchvision -c pytorch
+ 1455  conda activate gym
+ 1456  python
+ 1457  export PATH=$HOME/anaconda3/bin:$PATH
+ 1458  jupyter-notebook
+ 1459  cd Desktop
+ 1460  conda activate gym
+ 1461  python dqncartpole.py
+ 1462  anaco
+ 1463  anaconda-navigator
+ 1464  sudo apt-get remove xserver-xorg-input-synaptics
+ 1465  sudo apt-get install xserver-xorg-input-libinput
+ 1466  touch ~/libinput-gestures/.conf
+ 1467  ls
+ 1468  nano ~/libinput-gestures/.conf
+ 1469  nano libinput-gestures/.cong
+ 1470  nano libinput-gestures/.conf
+ 1471  nano ~/.config/libinput-gestures.conf
+ 1472  libinput-gestures-setup restart
+ 1473  nano ~/.config/libinput-gestures.conf
+ 1474  libinput-gestures-setup restart
+ 1475  nano ~/.config/libinput-gestures.conf
+ 1476  libinput-gestures-setup restart
+ 1477  nano ~/.config/libinput-gestures.conf
+ 1478  libinput-gestures-setup restart
+ 1479  nano ~/.config/libinput-gestures.conf
+ 1480  libinput-gestures-setup restart
+ 1481  mkdir -p /etc/X11/xorg.conf.d
+ 1482  sudo mkdir -p /etc/X11/xorg.conf.d
+ 1483  echo 'Section "InputClass"\n        Identifier "libinput touchpad catchall"\n        MatchIsTouchpad "on"\n        MatchDevicePath "/dev/input/event*"\n        Driver "libinput"\n        Option "Tapping" "on"\nEndSection' > /etc/X11/xorg.conf.d/40-libinput.conf
+ 1484  sudo echo 'Section "InputClass"\n        Identifier "libinput touchpad catchall"\n        MatchIsTouchpad "on"\n        MatchDevicePath "/dev/input/event*"\n        Driver "libinput"\n        Option "Tapping" "on"\nEndSection' > /etc/X11/xorg.conf.d/40-libinput.conf
+ 1485  su
+ 1486  sudo dpkg-reconfigure lightdm
+ 1487  sudo systemctl restart sddm.service
+ 1488  su
+ 1489  sudo nano /etc/X11/xorg.conf.d/30-libinput.conf
+ 1490  su
+ 1491  conda activate gym
+ 1492  jupyter-note
+ 1493  jupyter-notebook
+ 1494  export PATH=~/anaconda3/bin:$PATH
+ 1495  conda init zsh
+ 1496  sudo nano .zshrc
+ 1497  conda activate gym
+ 1498  jupyter-notebook
+ 1499  su
+ 1500  sudo nano ~/.config
+ 1501  ls
+ 1502  cd
+ 1503  ls
+ 1504  git clone https://github.com/preservim/nerdtree.git ~/.vim/pack/vendor/start/nerdtree
+ 1505  vim -u NONE -c "helptags ~/.vim/pack/vendor/start/nerdtree/doc" -c q
+ 1506  vim --version
+ 1507  vim
+ 1508  autocmd StdinReadPre * let s:std_in=1
+ 1509  vim
+ 1510  sudo apt-get install tmux
+ 1511  tmux
+ 1512  cd 
+ 1513  ls
+ 1514  C-b
+ 1515  tmux
+ 1516  sss
+ 1517  conda activate gym
+ 1518  jupyter-notebook
+ 1519  conda activate gym
+ 1520  pip install pennylane --upgrade
+ 1521  python
+ 1522  ls
+ 1523  cd anaconda3
+ 1524  ls
+ 1525  cd envs
+ 1526  ls
+ 1527  cd gym
+ 1528  ls
+ 1529  cd bin
+ 1530  ls
+ 1531  /anaconda/envs/gym/bin/ pip install pennylane --upgrade
+ 1532  cd
+ 1533  /anaconda/envs/gym/bin/ pip install pennylane --upgrade
+ 1534  /anaconda3/envs/gym/bin/ pip install pennylane --upgrade
+ 1535  anaconda3/envs/gym/bin/ pip install pennylane --upgrade
+ 1536  sudo anaconda3/envs/gym/bin/ pip install pennylane --upgrade
+ 1537  sudo anaconda3/envs/gym/bin/pip install pennylane --upgrade
+ 1538  python
+ 1539  ls
+ 1540  cd Desktop/Physik/BA/Code
+ 1541  nano pennylane_Test.py
+ 1542  python pennylane_Test.py
+ 1543  python
+ 1544  jupyter-notebook
+ 1545  python
+ 1546  conda searc gym --info
+ 1547  conda search gym --info
+ 1548  conda install python=3.7
+ 1549  conda activate gym
+ 1550  conda install python=3.7
+ 1551  python
+ 1552  cd anaconda3/envs/gym
+ 1553  ls
+ 1554  cd bin
+ 1555  ls
+ 1556  pip uninstall pennylane
+ 1557  conda deactivate
+ 1558  pip uninstall pennylane
+ 1559  conda activate gym
+ 1560  conda list
+ 1561  python
+ 1562  cd
+ 1563  anaconda
+ 1564  ls
+ 1565  anaconda3/envs/gym/bin/pip install pennylane
+ 1566  python
+ 1567  cd Desktop/Physik/BA/Code
+ 1568  ls
+ 1569  python pennylane_Test.py
+ 1570  vim pennylane_Test.py
+ 1571  python pennylane_Test.py
+ 1572  source /home/shawn/anaconda3/bin/activate
+ 1573  conda activate gym
+ 1574  conda install --name gym pylint -y
+ 1575  python pennylane_Test.py
+ 1576  source /home/shawn/anaconda3/bin/activate
+ 1577  conda activate gym
+ 1578  python pennylane_Test.py
+ 1579  source /home/shawn/anaconda3/bin/activate
+ 1580  conda activate gym
+ 1581  /home/shawn/anaconda3/envs/gym/bin/python
+ 1582  anaconda3/envs/gym/bin/pip install pennylane-sf
+ 1583  cd
+ 1584  anaconda3/envs/gym/bin/pip install pennylane-sf
+ 1585  pip install pennylane-sf cd /home/shawn/Desktop/Physik/BA/Code ; env /home/shawn/anaconda3/envs/gym/bin/python /home/shawn/.vscode/extensions/ms-python.python-2020.5.86398/pythonFiles/lib/python/debugpy/wheels/debugpy/launcher 40601 -- /home/shawn/Desktop/Physik/BA/Code/pennylane_Test.py 
+ 1586  vlc > output.txt
+ 1587  top
+ 1588  conda activate gym
+ 1589  cd Desktop/Physik/BA/Code
+ 1590  jupyter-notebook
+ 1591  ls -a
+ 1592  cd .jupyter/
+ 1593  ls
+ 1594  ls -a
+ 1595  cd
+ 1596  ls
+ 1597  ls -a
+ 1598  conda activate gym
+ 1599  source /home/shawn/anaconda3/bin/activate
+ 1600  conda activate gym
+ 1601  pip uninstall pennylane
+ 1602  cd
+ 1603  anaconda3/envs/gym/bin/pip install git+https://github.com/XanaduAI/pennylane.git#egg=pennylane
+ 1604  ls
+ 1605  cd Desktop/Physik/BA/Code
+ 1606  jupyter-notebook
+ 1607  sudo apt-get install exo-utils
+ 1608  exo-preferred-applications
+ 1609  cd /usr/share/applications
+ 1610  ls
+ 1611  cd ..
+ 1612  ls
+ 1613  cd application-registry
+ 1614  ls
+ 1615  cd ..
+ 1616  cd applications
+ 1617  ls
+ 1618  history
+ 1619  ls
+ 1620  cd Desktop
+ 1621  history > histor.txt
+ 1622  export LC_ALL="en_US.UTF-8"
+ 1623  export LC_ALL="en_US.UTF-8\n"
+ 1624  export LC_ALL="en_US.UTF-8"
+ 1625  export LC_CTYPE="en_US.UTF-8"
+ 1626  sudo dpkg-reconfigure locales
+ 1627  torbrowser-launcher
+ 1628  ls
+ 1629  cd Physik/BA/Code
+ 1630  conda activate gym
+ 1631  jupyter-notebook
+ 1632  torbrowser-launcher
+ 1633  export LC_ALL="en_US.UTF-8"
+ 1634  export LC_CTYPE="en_US.UTF-8"
+ 1635  torbrowser-launcher
+ 1636  watch
+ 1637  watch cpu
+ 1638  sensors
+ 1639  sudo apt-get install thinkfan
+ 1640  sensors
+ 1641  echo "options thinkpad_acpi fan_control=1" | sudo tee /etc/modprobe.d/thinkfan.conf
+ 1642  sudo modprobe -rv thinkpad_acpi
+ 1643  sudo modprobe -v thinkpad_acpi
+ 1644  ls
+ 1645  cd Desktop/Physik/BA
+ 1646  ls
+ 1647  cd Code
+ 1648  ls
+ 1649  jupyter-notebook
+ 1650  conda activate gym
+ 1651  import numpy
+ 1652  python
+ 1653  pip list --outdated
+ 1654  cd Desktop/Physik/BA/Code
+ 1655  jupyter-notebook
+ 1656  source /home/shawn/anaconda3/bin/activate
+ 1657  conda activate gym
+ 1658  sudo apt-get install intel-gpu-tools 
+ 1659  sudo intel_gpu_top
+ 1660  source /home/shawn/anaconda3/bin/activate
+ 1661  conda activate gym
+ 1662  \n\nconda install pytorch torchvision cudatoolkit=10.2 -c pytorch\n\n
+ 1663  torbrowser-launcher
+ 1664  export LC_ALL="en_US.UTF-8"
+ 1665  torbrowser-launcher
+ 1666  R
+ 1667  sudo systemctl enable bluetooth.service
+ 1668  R
+ 1669  ls -a
+ 1670  nano .bashrc
+ 1671  nano .zshrc
+ 1672  cd Desktop/Physik/BA/Code
+ 1673  jupyter-notebook
+ 1674  source /home/shawn/anaconda3/bin/activate
+ 1675  conda activate gym
+ 1676  ls
+ 1677  history > history.txt
+ 1678  cd Desktop/Physik/BA/Code
+ 1679  jupyter-notebook
+ 1680  source /home/shawn/anaconda3/bin/activate
+ 1681  conda activate gym
+ 1682  cd Desktop
+ 1683  conda activate gym
+ 1684  jupyter-notebook
+ 1685  export LC_ALL="en_US.UTF-8"
+ 1686  torbrowser-launcher
+ 1687  source /home/shawn/anaconda3/bin/activate
+ 1688  conda activate gym
+ 1689  cd Desktop/Arbeit/
+ 1690  ls
+ 1691  mkdir cpluszupython
+ 1692  cd cpluszupython
+ 1693  nano ressourcen.txt
+ 1694  ks
+ 1695  ls
+ 1696  nano ressourcen.txt
+ 1697  ls -a
+ 1698  nano .ressourcen.txt.swp
+ 1699  rm .ressourcen.txt.swp
+ 1700  ls -a
+ 1701  rm ..ressourcen.txt.swp.swp
+ 1702  nano ressourcen.txt
+ 1703  cd ..
+ 1704  ls
+ 1705  cd ..
+ 1706  ls
+ 1707  cd Physik
+ 1708  ls
+ 1709  cd BA/Code
+ 1710  ls
+ 1711  jupyter-notebook
+ 1712  conda activate gym
+ 1713  source /home/shawn/anaconda3/bin/activate
+ 1714  conda activate gym
+ 1715  python
+ 1716  \n\nconda install pytorch torchvision cudatoolkit=10.2 -c pytorch\n\n
+ 1717  conda activate gymm
+ 1718  conda create -n tensor
+ 1719  conda activate tensor
+ 1720  \n\nconda install pytorch torchvision cudatoolkit=10.2 -c pytorch\n\ndaaaaffffffffffffffffffff
+ 1721  conda install pip
+ 1722  pip install gy
+ 1723  ^[[200~pip install gy~
+ 1724  pip install gym
+ 1725  conda activate tensor
+ 1726  pip install gym
+ 1727  python
+ 1728  source /home/shawn/anaconda3/bin/activate
+ 1729  conda activate gym
+ 1730  conda activate tensor
+ 1731  ls
+ 1732  cd Desktop/Physik/BA/Code
+ 1733  ls
+ 1734  python cartpole_tf.py
+ 1735  conda activate tensor
+ 1736  source /home/shawn/anaconda3/bin/activate
+ 1737  conda activate gym
+ 1738  python cartpole_test_tf.py
+ 1739  ls
+ 1740  cd 
+ 1741  ls
+ 1742  nano .zshrc
+ 1743  torbrowser-launcher
+ 1744  export LANGUAGE=en_US.UTF-8
+ 1745  torbrowser-launcher
+ 1746  nano .zshrc
+ 1747  torbrowser-launcher
+ 1748  export LANG=en_US.UTF-8
+ 1749  torbrowser-launcher
+ 1750  torb
+ 1751  torbrowser-launcher
+ 1752  conda activate gym
+ 1753  pythi
+ 1754  python
+ 1755  conda create -n pl
+ 1756  conda activate pl
+ 1757  conda install pip
+ 1758  pip install gym
+ 1759  conda install -c conda-forge matplotlib \n
+ 1760  python
+ 1761  conda activate pl
+ 1762  python
+ 1763  torbrowser-launcher 
+ 1764  sudo apt-get install libboost-all-dev
+ 1765  cd Desktop/Arbeit
+ 1766  ls
+ 1767  mkdir exportpython
+ 1768  cd exportpython
+ 1769  vim test.cpp
+ 1770  cd ..
+ 1771  ls
+ 1772  rm -rf exportpython
+ 1773  cd cpluszupython
+ 1774  ls
+ 1775  vim test.cpp
+ 1776  ls
+ 1777  python
+ 1778  g++ test.cpp
+ 1779  ls
+ 1780  cd /usr/include/boost/python/
+ 1781  ls
+ 1782  sudo apt-get install python-dev libxml2-dev libxslt-dev
+ 1783  g++ test.cpp
+ 1784  sudo apt-get install python-dev
+ 1785  cd Desktop/Arbeit/cpluszupython/ls
+ 1786  cd Desktop/Arbeit/cpluszupython/
+ 1787  ls
+ 1788  g++ test.cpp
+ 1789  python3.7-config --includes --libs
+ 1790  nano ~/.zshrc
+ 1791  source ~/.zshrc
+ 1792  g++ test.cpp
+ 1793  ls
+ 1794  python3.7-config --includes --libs
+ 1795  ls
+ 1796  cd anaconda3/include/python3.7m
+ 1797  ls
+ 1798  nano ~/.zshrc
+ 1799  cd ..
+ 1800  ls
+ 1801  cd ..
+ 1802  ls 
+ 1803  cd ..
+ 1804  ls
+ 1805  cd ..
+ 1806  ls
+ 1807  cd usr
+ 1808  ls
+ 1809  cd ..
+ 1810  ls
+ 1811  cd
+ 1812  ls
+ 1813  cd ..
+ 1814  ls
+ 1815  source ~/.zshrc
+ 1816  g++ test.cpp
+ 1817  nano test.cpp
+ 1818  y
+ 1819  find /usr/include -name pyconfig.h
+ 1820  nano .zshrc
+ 1821  nano ~/.zshrc
+ 1822  source ~/.zshrc
+ 1823  g++ test.cpp
+ 1824  python
+ 1825  ls
+ 1826  g++ -I /usr/include/python3.7m
+ 1827  g++ -I /usr/include/python3.7m test.cpp
+ 1828  g++ -I /usr/include/python3.7m -fpic -c -o ormo.o test.cpp
+ 1829  g++ -o orm.so -shared orm.o -lboost_python -lpython3.7m
+ 1830  g++ -I /usr/include/python3.7m -fpic -c -o ormo.o test.cpp
+ 1831  g++ -I /usr/include/python3.7m -fpic -c -o orm.o test.cpp
+ 1832  g++ -o orm.so -shared orm.o -lboost_python -lpython3.7m
+ 1833  python
+ 1834  g++ -c -fPIC test.cpp -o foo.o
+ 1835  g++ -shared -Wl,-soname,libfoo.so -o libfoo.so  foo.o
+ 1836  python
+ 1837  ls
+ 1838  nano test.cpp
+ 1839  g++ -I /usr/include/python3.7m -fpic -c -o ormo.o test.cpp
+ 1840  g++ -o orm.so -shared orm.o -lboost_python -lpython3.7m
+ 1841  python
+ 1842  cd Desktop
+ 1843  cd Arbeit/cpluszupython
+ 1844  g++ -I /usr/include/python3.7m -fpic -c -o ormo.o test.cpp
+ 1845  g++ -o orm.so -shared orm.o -lboost_python -lpython3.7m
+ 1846  python
+ 1847  g++ -I /usr/include/python2.7/ -fpic -c -o ormo.o test.cpp
+ 1848  g++ -o orm.so -shared orm.o -lboost_python -lpython3.7m
+ 1849  g++ -o orm.so -shared orm.o -lboost_python -lpython2.7
+ 1850  python
+ 1851  torbrowser-launcher
+ 1852  conda create -n pybind
+ 1853  conda activate pybind
+ 1854  ls
+ 1855  nano ~/.vimrc
+ 1856  vim test
+ 1857  vim pybindtest.cpp
+ 1858  nano ~/.vimrc
+ 1859  vim pybindtest.cpp
+ 1860  c++ -O3 -Wall -shared -std=c++11 -fPIC `python3 -m pybind11 --includes` pybindtest.cpp -o example`python3-config --extension-suffix`\n
+ 1861  python
+ 1862  ls
+ 1863  vim pybindtest_class.cpp
+ 1864  cd Desktop/Arbeit/cpluszupython
+ 1865  ls
+ 1866  vim pybindtest.cpp
+ 1867  c++ -O3 -Wall -shared -std=c++11 -fPIC `python3 -m pybind11 --includes` pybindtest_class.cpp -o example`python3-config --extension-suffix`\n
+ 1868  python
+ 1869  vim pybindtest.cpp
+ 1870  vim pybindtest_class.cpp
+ 1871  c++ -O3 -Wall -shared -std=c++11 -fPIC `python3 -m pybind11 --includes` pybindtest_class.cpp -o example`python3-config --extension-suffix`\n
+ 1872  vim export_vari_pybind_docs.cpp
+ 1873  c++ -O3 -Wall -shared -std=c++11 -fPIC `python3 -m pybind11 --includes` export_vari_pybind_docs.cpp -o example`python3-config --extension-suffix`\n
+ 1874  python
+ 1875  vim pybind_class_test.cpp
+ 1876  c++ pybind_class_test.cpp
+ 1877  c++ -O3 -Wall -shared -std=c++11 -fPIC `python3 -m pybind11 --includes` pybind_class_test.cpp -o example`python3-config --extension-suffix`\n
+ 1878  vim pybind_class_test.cpp
+ 1879  c++ -O3 -Wall -shared -std=c++11 -fPIC `python3 -m pybind11 --includes` pybind_class_test.cpp -o example`python3-config --extension-suffix`\n
+ 1880  vim pybind_class_test.cpp
+ 1881  c++ -O3 -Wall -shared -std=c++11 -fPIC `python3 -m pybind11 --includes` pybind_class_test.cpp -o example`python3-config --extension-suffix`\n
+ 1882  vim pybind_class_test.cpp
+ 1883  c++ -O3 -Wall -shared -std=c++11 -fPIC `python3 -m pybind11 --includes` pybind_class_test.cpp -o example`python3-config --extension-suffix`\n
+ 1884  vim pybind_class_test.cpp
+ 1885  c++ -O3 -Wall -shared -std=c++11 -fPIC `python3 -m pybind11 --includes` pybind_class_test.cpp -o example`python3-config --extension-suffix`\n
+ 1886  vim pybind_class_test.cpp
+ 1887  c++ -O3 -Wall -shared -std=c++11 -fPIC `python3 -m pybind11 --includes` pybind_class_test.cpp -o example`python3-config --extension-suffix`\n
+ 1888  vim pybind_class_test.cpp
+ 1889  c++ -O3 -Wall -shared -std=c++11 -fPIC `python3 -m pybind11 --includes` pybind_class_test.cpp -o example`python3-config --extension-suffix`\n
+ 1890  vim pybind_class_test.cpp
+ 1891  c++ -O3 -Wall -shared -std=c++11 -fPIC `python3 -m pybind11 --includes` pybind_class_test.cpp -o example`python3-config --extension-suffix`\n
+ 1892  vim pybind_class_test.cpp
+ 1893  c++ -O3 -Wall -shared -std=c++11 -fPIC `python3 -m pybind11 --includes` pybind_class_test.cpp -o example`python3-config --extension-suffix`\n
+ 1894  python
+ 1895  vim pybind_class_test.cpp
+ 1896  python
+ 1897  vim pybind_class_test.cpp
+ 1898  c++ -O3 -Wall -shared -std=c++11 -fPIC `python3 -m pybind11 --includes` pybind_class_test.cpp -o example`python3-config --extension-suffix`\n
+ 1899  python
+ 1900  vim pybind_class_test.cpp
+ 1901  c++ -O3 -Wall -shared -std=c++11 -fPIC `python3 -m pybind11 --includes` pybind_class_test.cpp -o example`python3-config --extension-suffix`\n
+ 1902  vim pybind_class_test.cpp
+ 1903  c++ -O3 -Wall -shared -std=c++11 -fPIC `python3 -m pybind11 --includes` pybind_class_test.cpp -o example`python3-config --extension-suffix`\n
+ 1904  vim pybind_class_test.cpp
+ 1905  c++ -O3 -Wall -shared -std=c++11 -fPIC `python3 -m pybind11 --includes` pybind_class_test.cpp -o example`python3-config --extension-suffix`\n
+ 1906  vim pybind_class_test.cpp
+ 1907  c++ -O3 -Wall -shared -std=c++11 -fPIC `python3 -m pybind11 --includes` pybind_class_test.cpp -o example`python3-config --extension-suffix`\n
+ 1908  vim pybind_class_test.cpp
+ 1909  vim test_class.cpp
+ 1910  c++ -O3 -Wall -shared -std=c++11 -fPIC `python3 -m pybind11 --includes` pybind_class_test.cpp -o example`python3-config --extension-suffix`\n
+ 1911  vim test_class.cpp
+ 1912  vim pybind_class_test.cpp
+ 1913  c++ -O3 -Wall -shared -std=c++11 -fPIC `python3 -m pybind11 --includes` pybind_class_test.cpp -o example`python3-config --extension-suffix`\n
+ 1914  vim pybind_class_test.cpp
+ 1915  c++ -O3 -Wall -shared -std=c++11 -fPIC `python3 -m pybind11 --includes` pybind_class_test.cpp -o example`python3-config --extension-suffix`\n
+ 1916  vim pybind_class_test.cpp
+ 1917  c++ -O3 -Wall -shared -std=c++11 -fPIC `python3 -m pybind11 --includes` pybind_class_test.cpp -o example`python3-config --extension-suffix`\n
+ 1918  vim pybind_class_test.cpp
+ 1919  c++ -O3 -Wall -shared -std=c++11 -fPIC `python3 -m pybind11 --includes` pybind_class_test.cpp -o example`python3-config --extension-suffix`\n
+ 1920  python
+ 1921  torbrowser-launcher
+ 1922  
+ 1923  torbrowser-launcher
+ 1924  cd Desktop/Arbeit/cpluszupython
+ 1925  ls
+ 1926  vim pybindtest_class.cpp
+ 1927  vim pybind_class_test.cpp
+ 1928  c++ -O3 -Wall -shared -std=c++11 -fPIC `python3 -m pybind11 --includes` pybind_class_test.cpp -o example`python3-config --extension-suffix`\n
+ 1929  vim pybind_class_test.cpp
+ 1930  c++ -O3 -Wall -shared -std=c++11 -fPIC `python3 -m pybind11 --includes` pybind_class_test.cpp -o example`python3-config --extension-suffix`\n
+ 1931  vim pybind_class_test.cpp
+ 1932  c++ -O3 -Wall -shared -std=c++11 -fPIC `python3 -m pybind11 --includes` pybind_class_test.cpp -o example`python3-config --extension-suffix`\n
+ 1933  ls
+ 1934  c++ -O3 -Wall -shared -std=c++11 -fPIC `python3 -m pybind11 --includes` pybindtest_class.cpp -o example`python3-config --extension-suffix`\n
+ 1935  conda activate pybind
+ 1936  c++ -O3 -Wall -shared -std=c++11 -fPIC `python3 -m pybind11 --includes` pybind_class_test.cpp -o example`python3-config --extension-suffix`\n
+ 1937  vim pybind_class_test.cpp
+ 1938  c++ -O3 -Wall -shared -std=c++11 -fPIC `python3 -m pybind11 --includes` pybind_class_test.cpp -o example`python3-config --extension-suffix`\n
+ 1939  vim pybind_class_test.cpp
+ 1940  c++ -O3 -Wall -shared -std=c++11 -fPIC `python3 -m pybind11 --includes` pybind_class_test.cpp -o example`python3-config --extension-suffix`\n
+ 1941  python
+ 1942  cd Desktop/Arbeit/cpluszupython
+ 1943  ls
+ 1944  vim pybind_class_test.cpp
+ 1945  c++ -O3 -Wall -shared -std=c++11 -fPIC `python3 -m pybind11 --includes` pybind_class_test.cpp -o example`python3-config --extension-suffix`\n
+ 1946  conda activate pybin
+ 1947  conda activate pybind
+ 1948  c++ -O3 -Wall -shared -std=c++11 -fPIC `python3 -m pybind11 --includes` pybind_class_test.cpp -o example`python3-config --extension-suffix`\n
+ 1949  python
+ 1950  vim pybind_class_test.cpp
+ 1951  c++ -O3 -Wall -shared -std=c++11 -fPIC `python3 -m pybind11 --includes` pybind_class_test.cpp -o example`python3-config --extension-suffix`\n
+ 1952  python
+ 1953  vim pybind_class_test.cpp
+ 1954  c++ -O3 -Wall -shared -std=c++11 -fPIC `python3 -m pybind11 --includes` pybind_class_test.cpp -o example`python3-config --extension-suffix`\n
+ 1955  vim pybind_class_test.cpp
+ 1956  c++ -O3 -Wall -shared -std=c++11 -fPIC `python3 -m pybind11 --includes` pybind_class_test.cpp -o example`python3-config --extension-suffix`\n
+ 1957  python
+ 1958  vim pybind_class_test.cpp
+ 1959  c++ -O3 -Wall -shared -std=c++11 -fPIC `python3 -m pybind11 --includes` pybind_class_test.cpp -o example`python3-config --extension-suffix`\n
+ 1960  python
+ 1961  vim pybind_class_test.cpp
+ 1962  c++ -O3 -Wall -shared -std=c++11 -fPIC `python3 -m pybind11 --includes` pybind_class_test.cpp -o example`python3-config --extension-suffix`\n
+ 1963  vim pybind_class_test.cpp
+ 1964  c++ -O3 -Wall -shared -std=c++11 -fPIC `python3 -m pybind11 --includes` pybind_class_test.cpp -o example`python3-config --extension-suffix`\n
+ 1965  vim pybind_class_test.cpp
+ 1966  c++ -O3 -Wall -shared -std=c++11 -fPIC `python3 -m pybind11 --includes` pybind_class_test.cpp -o example`python3-config --extension-suffix`\n
+ 1967  vim pybind_class_test.cpp
+ 1968  c++ -O3 -Wall -shared -std=c++11 -fPIC `python3 -m pybind11 --includes` pybind_class_test.cpp -o example`python3-config --extension-suffix`\n
+ 1969  python
+ 1970  torbrowser-launcher
+ 1971  ssh -i /home/shawn/Desktop/Physik/BA/keypairvm -l debian 10.195.5.35
+ 1972  cd Desktop/Physik/BA
+ 1973  sudo chmod 600 keypairvm
+ 1974  sudo chmod 600 keypairvm.pub
+ 1975  ssh -i /home/shawn/Desktop/Physik/BA/keypairvm -l debian 10.195.5.35
+ 1976  ssh -i /home/shawn/Desktop/Physik/BA/keypairvm -l debian 10.195.5.35\n
+ 1977  ls
+ 1978  cd Downloads
+ 1979  ls
+ 1980  pdfunite chap1.pdf chap2_15.pdf chap3_15.pdf chap4_01.pdf chap5_15.pdf chap6.pdf Preskill_QC_1bis6.pdf
+ 1981  ssh -i /home/shawn/Desktop/Physik/BA/keypairvm -l ubuntu 10.195.5.35\n
+ 1982  ssh
+ 1983  ssh -i /home/shawn/Desktop/Physik/BA/keypairvm -l ubuntu 10.195.5.35\n
+ 1984  ssh-keygen -f "/home/shawn/.ssh/known_hosts" -R "10.195.5.35"\n
+ 1985  ssh -i /home/shawn/Desktop/Physik/BA/keypairvm -l ubuntu 10.195.5.35\n
+ 1986  sudo usermod -aG vboxsf $(whoami)
+ 1987  ls -al /media
+ 1988  lshw -C disk
+ 1989  ssh -i /home/shawn/Desktop/Physik/BA/keypairvm -l ubuntu 10.195.5.35\n
+ 1990  source /home/shawn/anaconda3/bin/activate
+ 1991  conda activate gym
+ 1992  jupyter-notebook
+ 1993  conda activate gym
+ 1994  pip install gym
+ 1995  conda install -c conda-forge matplotlib \n
+ 1996  conda install pytorch torchvision cudatoolkit=10.2 -c pytorch\n
+ 1997  ssh -i /home/shawn/Desktop/Physik/BA/keypairvm -l ubuntu 10.195.5.35\n
+ 1998  jupyter-notebook
+ 1999  ssh -i /home/shawn/Desktop/Physik/BA/keypairvm -l ubuntu 10.195.5.35\n
+ 2000  \n 
+ 2001  scp user@10.195.5.35 /mnt/D0C0821CC0820944/Downloads/dfp-edid.bin /home/ubuntu\n
+ 2002  scp user@10.195.5.35 /home/ubuntu /mnt/D0C0821CC0820944/Downloads/dfp-edid.bin\n
+ 2003  scp /mnt/D0C0821CC0820944/Downloads/dfp-edid.bin user@10.195.5.35 /home/ubuntu/\n\n
+ 2004  scp user@10.195.5.35:/home/ubuntu /mnt/D0C0821CC0820944/Downloads/dfp-edid.bin\n
+ 2005  scp /mnt/D0C0821CC0820944/Downloads/dfp-edid.bin ubuntu@10.195.5.35:/home/ubuntu
+ 2006  stfp ubuntu@10.195.5.35
+ 2007  sftp ubuntu@10.195.5.35
+ 2008  sudo scp /mnt/D0C0821CC0820944/Downloads/dfp-edid.bin ubuntu@10.195.5.35:/home/ubuntu
+ 2009  sudo scp /mnt/D0C0821CC0820944/Downloads/dfp-edid.bin ubuntu@10.195.5.35:~/home/ubuntu
+ 2010  sudo scp -r /mnt/D0C0821CC0820944/Downloads/dfp-edid.bin ubuntu@10.195.5.35:~/home/ubuntu
+ 2011  sudo scp -r /home/shawn/Desktop/Physik/BA/keypairvm /mnt/D0C0821CC0820944/Downloads/dfp-edid.bin ubuntu@10.195.5.35:~/home/ubuntu
+ 2012  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm /mnt/D0C0821CC0820944/Downloads/dfp-edid.bin ubuntu@10.195.5.35:~/home/ubuntu
+ 2013  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm /mnt/D0C0821CC0820944/Downloads/dfp-edid.bin ubuntu@10.195.5.35:/home/ubuntu
+ 2014  ssh -i /home/shawn/Desktop/Physik/BA/keypairvm -l ubuntu 10.195.5.35\n
+ 2015  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm /mnt/D0C0821CC0820944/Downloads/anydesk_5.5.6-1_amd64.deb ubuntu@10.195.5.35:/home/ubuntu
+ 2016  ssh -i /home/shawn/Desktop/Physik/BA/keypairvm -l ubuntu 10.195.5.35\n
+ 2017  subo dpkg -i /mnt/D0C0821CC0820944/Downloads/anydesk_5.5.6-1_amd64.deb
+ 2018  sudo dpkg -i /mnt/D0C0821CC0820944/Downloads/anydesk_5.5.6-1_amd64.deb
+ 2019  anydesk
+ 2020  sudo apt-get install libgtkglext1
+ 2021  sudo apt-get install libangox
+ 2022  sudo apt-get install libpangox
+ 2023  sudo apt-get install libpangox-1.0-0
+ 2024  sudo apt-get install libgtkglext1 
+ 2025  anydesk
+ 2026  sudo apt-get install anydesk
+ 2027  sudo apt-get --purge remove anydesk
+ 2028  sudo apt-get install anydesk
+ 2029  sudo dpkg -i /mnt/D0C0821CC0820944/Downloads/anydesk_5.5.6-1_amd64.deb
+ 2030  sudo apt-get install anydesk
+ 2031  sudp apt --fix-broken install
+ 2032  sudo apt --fix-broken install
+ 2033  anydesk
+ 2034  ssh -i /home/shawn/Desktop/Physik/BA/keypairvm -l ubuntu 10.195.5.35\n
+ 2035  anydesk --connect ubuntu@10.195.5.35
+ 2036  anydesk --connect 10.195.5.35
+ 2037  anydesk --connect ubuntu@10.195.5.35
+ 2038  anydesk --connect /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35
+ 2039  ls
+ 2040  ssh -i /home/shawn/Desktop/Physik/BA/keypairvm -l ubuntu 10.195.5.35\n
+ 2041  source /home/shawn/anaconda3/bin/activate
+ 2042  conda activate gym
+ 2043  python
+ 2044  pip install gym
+ 2045  pip uninstall gym
+ 2046  pip install gym
+ 2047  python
+ 2048  jupyter-notebook
+ 2049  ssh -i /home/shawn/Desktop/Physik/BA/keypairvm -l ubuntu 10.195.5.35\n
+ 2050  ssh-keygen -f "/home/shawn/.ssh/known_hosts" -R "10.195.5.35"\n
+ 2051  ssh -i /home/shawn/Desktop/Physik/BA/keypairvm -l ubuntu 10.195.5.35\n
+ 2052  torbrowser-launcher
+ 2053  ssh -i /home/shawn/Desktop/Physik/BA/keypairvm -l ubuntu 10.195.5.35\n
+ 2054  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm /mnt/D0C0821CC0820944/Downloads/dfp-edid.bin ubuntu@10.195.5.35:/home/ubuntu
+ 2055  sudo   ssh-keygen -f "/root/.ssh/known_hosts" -R "10.195.5.35"\n
+ 2056  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm /mnt/D0C0821CC0820944/Downloads/dfp-edid.bin ubuntu@10.195.5.35:/home/ubuntu
+ 2057  ssh -i /home/shawn/Desktop/Physik/BA/keypairvm -l ubuntu 10.195.5.35\n
+ 2058  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm /mnt/D0C0821CC0820944/Downloads/anydesk_5.5.6-1_amd64.deb ubuntu@10.195.5.35:/home/ubuntu
+ 2059  ssh -i /home/shawn/Desktop/Physik/BA/keypairvm -l ubuntu 10.195.5.35\n
+ 2060  cond activate gym
+ 2061  conda activate gym
+ 2062  \n\nconda install pytorch torchvision cudatoolkit=10.2 -c pytorch\n\n
+ 2063  ssh -i /home/shawn/Desktop/Physik/BA/keypairvm -l ubuntu 10.195.5.35\n
+ 2064  jupyter-notebook
+ 2065  torbrowser-launcher
+ 2066  ssh -i /home/shawn/Desktop/Physik/BA/keypairvm -l ubuntu 10.195.5.35\n
+ 2067  ls
+ 2068  cd ..
+ 2069  ls
+ 2070  cd shawn
+ 2071  ls
+ 2072  cd Desktop
+ 2073  ls
+ 2074  history > history_pybind.txt
+ 2075  ls
+ 2076  cd Arbeit
+ 2077  ls
+ 2078  cd cpluszupython
+ 2079  ls
+ 2080  c++ -O3 -Wall -shared -std=c++11 -fPIC `python3 -m pybind11 --includes` pybind_class_test.cpp -o example`python3-config --extension-suffix`\n
+ 2081  conda activate pybind
+ 2082  c++ -O3 -Wall -shared -std=c++11 -fPIC `python3 -m pybind11 --includes` pybind_class_test.cpp -o example`python3-config --extension-suffix`\n
+ 2083  ls
+ 2084  vim pybind_class_test.cpp
+ 2085  vim pybindtest_class.cpp
+ 2086  python
+ 2087  torbrowser-launcher
+ 2088  ls
+ 2089  python
+ 2090  vim pybind_class_test.cpp
+ 2091  vim pybindtest.cpp
+ 2092  vim pybindtest_class.cpp
+ 2093  vim test.cpp
+ 2094  vim pybind_class_test.cpp
+ 2095  python
+ 2096  l
+ 2097  ls
+ 2098  l
+ 2099  vim pybind_class_test.cpp
+ 2100  sudo nano ~/.vimrc
+ 2101  c++ -O3 -Wall -shared -std=c++11 -fPIC `python3 -m pybind11 --includes` abstrakt_github.cpp -o example`python3-config --extension-suffix`\n
+ 2102  c++ -O3 -Wall -shared -std=c++11 -fPIC `python3 -m pybind11 --includes` abstrakt_test.cpp -o example`python3-config --extension-suffix`\n
+ 2103  c++ -O3 -Wall -shared -std=c++11 -fPIC `python3 -m pybind11 --includes` abstrakt_github.cpp -o example`python3-config --extension-suffix`\n
+ 2104  python
+ 2105  ls
+ 2106  rm exam*
+ 2107  c++ -O3 -Wall -shared -std=c++11 -fPIC `python3 -m pybind11 --includes` abstrakt_github.cpp -o example`python3-config --extension-suffix`\n
+ 2108  ls
+ 2109  python
+ 2110  c++ -O3 -Wall -shared -std=c++11 -fPIC `python3 -m pybind11 --includes` pybind_class_test.cpp -o example`python3-config --extension-suffix`\n
+ 2111  ls
+ 2112  python
+ 2113  c++ -O3 -Wall -shared -std=c++11 -fPIC `python3 -m pybind11 --includes` abstrakt_test.cpp -o example`python3-config --extension-suffix`\n
+ 2114  conda activate pybind
+ 2115  c++ -O3 -Wall -shared -std=c++11 -fPIC `python3 -m pybind11 --includes` abstrakt_test.cpp -o example`python3-config --extension-suffix`\n
+ 2116  source /home/shawn/anaconda3/bin/activate
+ 2117  conda activate gym
+ 2118  conda create -n gymm
+ 2119  conda activate gymm
+ 2120  conda create -n gym
+ 2121  conda install -c conda-forge matplotlib \n
+ 2122  ssh -i /home/shawn/Desktop/Physik/BA/keypairvm -l ubuntu 10.195.5.35\n
+ 2123  conda create -n gymmm
+ 2124  conda install -c conda-forge matplotlib \n
+ 2125  conda activate gym
+ 2126  conda install -c conda-forge matplotlib \n
+ 2127  python 
+ 2128  conda install pytorch torchvision cudatoolkit=10.2 -c pytorch\n
+ 2129  conda activate gym
+ 2130  pip install gym
+ 2131  source /home/shawn/anaconda3/bin/activate
+ 2132  conda activate gym
+ 2133  conda install --name gym pylint -y
+ 2134  conda install pytorch torchvision cudatoolkit=10.2 -c pytorch\n
+ 2135  ls
+ 2136  cd Desktop
+ 2137  history > histry_wo_src.txt
+ 2138  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/fig.png fig.png\n
+ 2139  ls
+ 2140  open fig.png
+ 2141  fig
+ 2142  conda activate gym
+ 2143  jupyter-notebook
+ 2144  cd ..
+ 2145  cd Physik/BA
+ 2146  jupyter-notebook
+ 2147  cond activate gym
+ 2148  conda activate gym
+ 2149  ls
+ 2150  cd Code
+ 2151  ls
+ 2152  python cartpoledqn.py
+ 2153  jupyter-notebook
+ 2154  conda install -c anaconda ipykernel
+ 2155  conda install pytorch torchvision cudatoolkit=10.2 -c pytorch\n
+ 2156  jupyter-notebook
+ 2157  python -m ipykernel install --user --name=gym
+ 2158  jupyter-notebook
+ 2159  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/fig.png fig.png\n
+ 2160  sudo apt remove autodesk
+ 2161  sudo /usr/local/bin/rmsoft
+ 2162  ls
+ 2163  cd 
+ 2164  ls
+ 2165  ccd ..
+ 2166  cd ..
+ 2167  ls
+ 2168  cd ..
+ 2169  ls
+ 2170  cd home/shawn/Desktop/Physik/BA/Code
+ 2171  conda activate gym
+ 2172  jupyter-notebook
+ 2173  ssh -i /home/shawn/Desktop/Physik/BA/keypairvm -l ubuntu 10.195.5.35\n
+ 2174  source /home/shawn/anaconda3/bin/activate
+ 2175  conda activate gym
+ 2176  /home/shawn/anaconda3/envs/gym/bin/python /home/shawn/Desktop/Physik/BA/Code/qdqn.py
+ 2177  ssh -i /home/shawn/Desktop/Physik/BA/keypairvm -l ubuntu 10.195.5.35\n
+ 2178  env /home/shawn/anaconda3/envs/gym/bin/python /home/shawn/.vscode/extensions/ms-python.python-2020.6.91350/pythonFiles/lib/python/debugpy/launcher 36085 -- /home/shawn/Desktop/Physik/BA/Code/cartpoledqn.py 
+ 2179  source /home/shawn/anaconda3/bin/activate
+ 2180  conda activate gym
+ 2181  cd /home/shawn/Desktop/Physik/BA/Code ; env /home/shawn/anaconda3/envs/gym/bin/python /home/shawn/.vscode/extensions/ms-python.python-2020.6.91350/pythonFiles/lib/python/debugpy/launcher 33791 -- /home/shawn/Desktop/Physik/BA/Code/cartpoledqn.py 
+ 2182  jupyter-notebook
+ 2183  conda ativate gymm
+ 2184  conda activate gymm
+ 2185  jupyter-notebook
+ 2186  autodesk
+ 2187  
+ 2188  cd Downloads
+ 2189  ls
+ 2190  cd ..
+ 2191  ls
+ 2192  cd Downloads
+ 2193  ls
+ 2194  cd 
+ 2195  cd ..
+ 2196  ls
+ 2197  cd ..
+ 2198  ls
+ 2199  cd  ..
+ 2200  ls
+ 2201  cd media
+ 2202  ls
+ 2203  cd shawn
+ 2204  ls
+ 2205  cd ..
+ 2206  ls
+ 2207  cd mnt
+ 2208  ls
+ 2209  cd D0C0821CC0820944
+ 2210  ls
+ 2211  cd Downloads
+ 2212  ls
+ 2213  cd Quanoptics
+ 2214  ls
+ 2215  convert Skript02.pdf Skript03.pdf Skript04.pdf Skript05.pdf Skript06.pdf Skript07.pdf Skript08.pdf Skript09.pdf Skript10.pdf Skript11.pdf Skript12.pdf Skript13.pdf Skript14.pdf Skript15.pdf Skript16.pdf Skript17.pdf Skript18.pdf Skript19.pdf Skript119.pdf
+ 2216  convert Skript119.pdf Skript20.pdf Skript21.pdf Skript22.pdf Skript23.pdf Skript24.pdf Skript25.pdf Skript26.pdf Skript27.pdf Skript28.pdf Skript29.pdf Skript30.pdf Skriptges.pdf
+ 2217  torbrowser-launcher
+ 2218  sudo apt remove zoom
+ 2219  sudo apt remove autodesk
+ 2220  sudo apt remove anydesk
+ 2221  sudo apt install ./zoom_amd64.deb
+ 2222  ls
+ 2223  cd
+ 2224  ls
+ 2225  sudo apt install ./zoom_amd64.deb
+ 2226  cd /mnt/D0C0821CC0820944/Downloads
+ 2227  sudo apt install ./zoom_amd64.deb
+ 2228  ls
+ 2229  sudo apt install ./zoom_amd64.deb
+ 2230  torbrowser-launcher
+ 2231  pdftk /mnt/D0C0821CC0820944/Downloads/StormShawn.pdf
+ 2232  pdftk /mnt/D0C0821CC0820944/Downloads/StormShawn.pdf password output /mnt/D0C0821CC0820944/Downloads/stormshawnpass.pdf
+ 2233  sudo apt-get qpdf
+ 2234  qpdf /mnt/D0C0821CC0820944/Downloads/StormShawn.pdf /mnt/D0C0821CC0820944/Downloads/stormshawnpass.pdf
+ 2235  qpdf --decypt /mnt/D0C0821CC0820944/Downloads/StormShawn.pdf /mnt/D0C0821CC0820944/Downloads/stormshawnpass.pdf
+ 2236  qpdf --decrypt /mnt/D0C0821CC0820944/Downloads/StormShawn.pdf /mnt/D0C0821CC0820944/Downloads/stormshawnpass.pdf
+ 2237  pdftk /mnt/D0C0821CC0820944/Downloads/StormShawn.pdf output /mnt/D0C0821CC0820944/Downloads/stormshawnpass.pdf allow AllFeatures
+ 2238  pdftk /mnt/D0C0821CC0820944/Downloads/StormShawn.pdf output /mnt/D0C0821CC0820944/Downloads/stormshawnpass.pdf allow AllFeatures\n
+ 2239  ssh -i /home/shawn/Desktop/Physik/BA/keypairvm -l ubuntu 10.195.5.35\n
+ 2240  sudo apt-get install pdfcrack
+ 2241  pip install pycrypto
+ 2242  pip install numpy
+ 2243  pip install pyopencl
+ 2244  python run.py -i /mnt/D0C0821CC0820944/Downloads/StormShawn.pdf --use-gpu -u '' -v
+ 2245  ls
+ 2246  git https://github.com/awreece/pdfcrack-opencl.git
+ 2247  git clone https://github.com/awreece/pdfcrack-opencl.git
+ 2248  ls
+ 2249  cd pdfcrack-opencl
+ 2250  ls
+ 2251  python run.py -i /mnt/D0C0821CC0820944/Downloads/StormShawn.pdf --use-gpu -u '' -v
+ 2252  vim run.py
+ 2253  autopep8 -i run.py
+ 2254  pip install autopep8
+ 2255  autopep8 -i run.py
+ 2256  python run.py -i /mnt/D0C0821CC0820944/Downloads/StormShawn.pdf --use-gpu -u '' -v
+ 2257  vim run.py
+ 2258  python run.py -i /mnt/D0C0821CC0820944/Downloads/StormShawn.pdf --use-gpu -u '' -v
+ 2259  autopep8 -i run.py
+ 2260  python run.py -i /mnt/D0C0821CC0820944/Downloads/StormShawn.pdf --use-gpu -u '' -v
+ 2261  vim run.py
+ 2262  python run.py -i /mnt/D0C0821CC0820944/Downloads/StormShawn.pdf --use-gpu -u '' -v
+ 2263  vim run.py
+ 2264  conda create -n python=2.7 pdf
+ 2265  pdfcrack -f /mnt/D0C0821CC0820944/Downloads/StormShawn.pdf
+ 2266  pdftk /mnt/D0C0821CC0820944/Downloads/StormShawn.pdf Kl4usuRSchlu3ss3l output /mnt/D0C0821CC0820944/Downloads/stormshawnpass.pdf\n
+ 2267  pdftk /mnt/D0C0821CC0820944/Downloads/StormShawn.pdf input_pw Kl4usuRSchlu3ss3l output /mnt/D0C0821CC0820944/Downloads/stormshawnpass.pdf\n
+ 2268  jupyter-notebook
+ 2269  torbrowser-launcher
+ 2270  ls
+ 2271  cd 
+ 2272  cd Desktop/Arbeit
+ 2273  ls
+ 2274  cd cpluszupython
+ 2275  ls
+ 2276  vim abstrakt_test.cpp
+ 2277  c++ -O3 -Wall -shared -std=c++11 -fPIC `python3 -m pybind11 --includes` abstract_test.cpp -o example`python3-config --extension-suffix`\n
+ 2278  conda activate pybind
+ 2279  c++ -O3 -Wall -shared -std=c++11 -fPIC `python3 -m pybind11 --includes` abstract_test.cpp -o example`python3-config --extension-suffix`\n
+ 2280  c++ -O3 -Wall -shared -std=c++11 -fPIC `python3 -m pybind11 --includes` abstrakt_test.cpp -o example`python3-config --extension-suffix`\n
+ 2281  python
+ 2282  c++ -O3 -Wall -shared -std=c++11 -fPIC `python3 -m pybind11 --includes` abstrakt_test.cpp -o example `python3-config --extension-suffix`\n
+ 2283  c++ -O3 -Wall -shared -std=c++11 -fPIC `python3 -m pybind11 --includes` abstrakt_test.cpp -o example`python3-config --extension-suffix`\n
+ 2284  ls
+ 2285  vim pybindtest.cpp
+ 2286  c++ -O3 -Wall -shared -std=c++11 -fPIC `python3 -m pybind11 --includes` pybindtest.cpp -o example`python3-config --extension-suffix`\n
+ 2287  python
+ 2288  $ c++ -O3 -Wall -shared -std=c++11 -fPIC `python3 -m pybind11 --includes` pybindtest.cpp -o example`python3-config --extension-suffix`
+ 2289  c++ -O3 -Wall -shared -std=c++11 -fPIC `python3 -m pybind11 --includes` pybindtest.cpp -o example`python3-config --extension-suffix`
+ 2290  python
+ 2291  exit()\n2
+ 2292  ls
+ 2293  c++ -O3 -Wall -shared -std=c++11 -fPIC `python3 -m pybind11 --includes` abstrakt_test.cpp -o example`python3-config --extension-suffix`
+ 2294  python
+ 2295  ls
+ 2296  git
+ 2297  git status
+ 2298  cd ..
+ 2299  ls
+ 2300  git status
+ 2301  git init
+ 2302  git status
+ 2303  git add cpluszupython/
+ 2304  cd cpluszupython
+ 2305  ls
+ 2306  git status
+ 2307  git reset
+ 2308  git status
+ 2309  git add abstrakt_test.cpp
+ 2310  git commit -m "c++ to python - abstact class"
+ 2311  git push
+ 2312  cd ..
+ 2313  ls
+ 2314  cd ..
+ 2315  git add remote origin https://github.com/schalkdaniel/cpp_test_repo.git
+ 2316  git remote add origin https://github.com/schalkdaniel/cpp_test_repo.git
+ 2317  git status
+ 2318  ls
+ 2319  cd cpp_test_repo/cpluszupython
+ 2320  ls
+ 2321  git add abstrakt_test.cpp
+ 2322  ls
+ 2323  git commit -m "c++ to python - abstract"
+ 2324  git pish
+ 2325  git push
+ 2326  git pull
+ 2327  git push
+ 2328  conda activate gymm
+ 2329  jupyter-notebook
+ 2330  source /home/shawn/anaconda3/bin/activate
+ 2331  conda activate gym
+ 2332  ssh -i /home/shawn/Desktop/Physik/BA/keypairvm -l ubuntu 10.195.5.35\n
+ 2333  python
+ 2334  conda activate gymm
+ 2335  python
+ 2336  ssh -i /home/shawn/Desktop/Physik/BA/keypairvm -l ubuntu 10.195.5.35\n
+ 2337  torbrowser-launcher
+ 2338  env /home/shawn/anaconda3/envs/gym/bin/python /home/shawn/.vscode/extensions/ms-python.python-2020.6.91350/pythonFiles/lib/python/debugpy/launcher 35769 -- /home/shawn/Desktop/Physik/BA/Code/cartpoledqn.py 
+ 2339  source /home/shawn/anaconda3/bin/activate
+ 2340  conda activate gym
+ 2341  conda install -c conda-forge keras
+ 2342  conda create -n tens
+ 2343  conda activate tens
+ 2344  conda install -c conda-forge keras
+ 2345  conda install -c anaconda pandas
+ 2346  git clone https://github.com/puzzler10/openai_gym.git
+ 2347  python -m ipykernel install --user --name=tens
+ 2348  conda install -c anaconda ipykernel
+ 2349  python -m ipykernel install --user --name=tens
+ 2350  pip install gymm
+ 2351  pip install gym
+ 2352  conda remove numpy
+ 2353  conda create -n tensf numpy ipykernel matplotlib keras tensorflow
+ 2354  python -m ipykernel install --user --name=tensf
+ 2355  conda activate gym
+ 2356  python
+ 2357  torbrowser-launcher
+ 2358  conda activate tens
+ 2359  conda activate tensf
+ 2360  anaconda3/envs/tensf/bin/pip install git+https://github.com/XanaduAI/pennylane.git#egg=pennylane\n
+ 2361  anaconda3/envs/gym/bin/ pip install git+https://github.com/XanaduAI/pennylane.git#egg=pennylane\n
+ 2362  anaconda3/envs/tensf/bin/ pip install git+https://github.com/XanaduAI/pennylane.git#egg=pennylane\n
+ 2363  anaconda3/envs/tensf/bin/pip install git+https://github.com/XanaduAI/pennylane.git#egg=pennylane\n
+ 2364  cd
+ 2365  ls
+ 2366  anaconda3/envs/tensf/bin/pip install git+https://github.com/XanaduAI/pennylane.git#egg=pennylane\n
+ 2367  anaconda3/envs/tensf/bin/pip install pennylane-sf\n
+ 2368  python
+ 2369  conda activate tensf
+ 2370  ls
+ 2371  python
+ 2372  anaconda3/envs/tensf/bin/pip install git+https://github.com/XanaduAI/pennylane.git#egg=pennylane\n
+ 2373  cd
+ 2374  anaconda3/envs/tensf/bin/pip install git+https://github.com/XanaduAI/pennylane.git#egg=pennylane\n
+ 2375  anaconda3/envs/tensf/bin/pip install pennylane-sf\n
+ 2376  python
+ 2377  source /home/shawn/anaconda3/bin/activate
+ 2378  conda activate gym
+ 2379  conda activate tensf
+ 2380  ls
+ 2381  conda activate tensf
+ 2382  ls
+ 2383  cd 
+ 2384  cd Desktop/Physik/BA/Code
+ 2385  ls
+ 2386  python neu_qdqn_cartpole.py
+ 2387  pip install gm
+ 2388  pip install gym
+ 2389  python neu_qdqn_cartpole.py
+ 2390  vim neu_qdqn_cartpole.py
+ 2391  python neu_qdqn_cartpole.py
+ 2392  ls
+ 2393  ssh -i /home/shawn/Desktop/Physik/BA/keypairvm -l ubuntu 10.195.5.35\n
+ 2394  python neu_qdqn_cartpole.py
+ 2395  python
+ 2396  source /home/shawn/anaconda3/bin/activate
+ 2397  conda activate gym
+ 2398  conda activate tensf
+ 2399  python trace_test.py
+ 2400  python
+ 2401  python trace_test.py
+ 2402  ssh -i /home/shawn/Desktop/Physik/BA/keypairvm -l ubuntu 10.195.5.35\n
+ 2403  python neu_qdqn_cartpole.py
+ 2404  python trace_test.py
+ 2405  ls
+ 2406  cd
+ 2407  ls
+ 2408  cd Desktop
+ 2409  ls
+ 2410  history > history.txt
+ 2411  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/fig_basic.png fig_basic.png
+ 2412  ls
+ 2413  cd Physik
+ 2414  ls
+ 2415  cd BA
+ 2416  ls
+ 2417  cd Code
+ 2418  ls
+ 2419  vim taxi.py
+ 2420  conda activate gymm
+ 2421  python taxi.py
+ 2422  vim taxi.py
+ 2423  ls -a
+ 2424  rm .taxi.py.swp
+ 2425  vim taxi.py
+ 2426  python taxi.py
+ 2427  conda activate gym
+ 2428  python taxi.py
+ 2429  anaconda3/envs/gym/bin/pip install git+https://github.com/XanaduAI/pennylane.git#egg=pennylane\n
+ 2430  anaconda3/envs/gym/bin/ pip install git+https://github.com/XanaduAI/pennylane.git#egg=pennylane\n
+ 2431  conda activate gymm
+ 2432  python taxi.py
+ 2433  pip install gym
+ 2434  python taxi.py
+ 2435  conda list
+ 2436  sudo apt install snapd snapd-xdg-open
+ 2437  sudo apt install snapd
+ 2438  sudo snap install pycharm-community --classic
+ 2439  conda remove --name gym --all
+ 2440  conda remove --name gymm --all
+ 2441  conda activate tens
+ 2442  conda remove --name gymm --all
+ 2443  conda activate gym
+ 2444  conda activate gymm
+ 2445  conda remove --name gymm --all
+ 2446  conda deactivate gymm
+ 2447  conda deactivate
+ 2448  conda remove --name gymm --all
+ 2449  conda remove --name tens --all
+ 2450  conda create -n pytorch numpy pandas matplotlib 
+ 2451  pycharm-community
+ 2452  sudo snap install pycharm-co
+ 2453  sudo snap install pycharm-community --classic
+ 2454  sudo apt update
+ 2455  sudo apt install snapd
+ 2456  sudo snap install pycharm-community --classic
+ 2457  snap help refresh
+ 2458  \n\nconda install pytorch torchvision cudatoolkit=10.2 -c pytorch\n\n
+ 2459  pip install gym
+ 2460  ls
+ 2461  python neu_qdqn_cartpole.py
+ 2462  python froz_versuch.py
+ 2463  python taxi.py
+ 2464  vim taxi.py
+ 2465  python taxi.py
+ 2466  /home/shawn/anaconda3/envs/gym/bin/python /home/shawn/Desktop/Physik/BA/Code/neu_qdqn_cartpole.py
+ 2467  torbrowser-launcher
+ 2468  python trace_test.py
+ 2469  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/fig_basic1.png fig_basic1.png
+ 2470  python
+ 2471  ls
+ 2472  python dqn_frozlake.py
+ 2473  python froz_versuch.py
+ 2474  python
+ 2475  python froz_versuch.py
+ 2476  python
+ 2477  python froz_versuch.py
+ 2478  python
+ 2479  python froz_versuch.py
+ 2480  ssh -i /home/shawn/Desktop/Physik/BA/keypairvm -l ubuntu 10.195.5.35\n
+ 2481  python froz_versuch.py
+ 2482  conda activate tenfs
+ 2483  conda activate tens
+ 2484  conda activate tenf
+ 2485  conda activate tensf
+ 2486  python froz_versuch.py
+ 2487  history > history.txt
+ 2488  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/fig_basic_froz_lrz.png fig_basic_froz_lrz.png
+ 2489  python froz_versuch.py
+ 2490  python
+ 2491  ssh -i /home/shawn/Desktop/Physik/BA/keypairvm -l ubuntu 10.195.5.35\n
+ 2492  cd Desktop/Physik
+ 2493  jupyter-notebook
+ 2494  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/fig_basic_froz_dqn_ep005_99_batch64_lr0021.png fig_basic_froz_dqn_ep005_99_batch64_lr0021.png
+ 2495  cd Code
+ 2496  conda activate tensf
+ 2497  python froz_versuch.py
+ 2498  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/fig_basic_froz_dqn_ep005_99_batch64_lr0051.png fig_basic_froz_dqn_ep005_99_batch64_lr0051.png
+ 2499  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/fig_basic_froz_dqn_ep005_99_batch64_lr0011.png fig_basic_froz_dqn_ep005_99_batch64_lr0011.png
+ 2500  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/fig_basic_froz_dqn_ep005_99_batch64_lr011.png fig_basic_froz_dqn_ep005_99_batch64_lr011.png
+ 2501  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/fig_basic_froz_dqn_ep005_99_batch64_lr051.png fig_basic_froz_dqn_ep005_99_batch64_lr051.png
+ 2502  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/fig_basic_froz_dqn_ep005_99_batch64_lr091.png fig_basic_froz_dqn_ep005_99_batch64_lr091.png
+ 2503  ls
+ 2504  python froz_versuch.py
+ 2505  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/fig_basic_froz_dqn_ep005_99_batch64_lr000005.png fig_basic_froz_dqn_ep005_99_batch64_lr000005.png
+ 2506  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/fig_basic_froz_dqn_ep005_99_batch64_lr000001.png fig_basic_froz_dqn_ep005_99_batch64_lr000001.png
+ 2507  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/fig_basic_froz_dqn_ep005_99_batch64_lr00001.png fig_basic_froz_dqn_ep005_99_batch64_lr00001.png
+ 2508  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/fig_basic_froz_dqn_ep005_99_batch64_lr00005.png fig_basic_froz_dqn_ep005_99_batch64_lr00005.png
+ 2509  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/fig_basic_froz_dqn_ep005_99_batch64_lr0005.png fig_basic_froz_dqn_ep005_99_batch64_lr0005.png
+ 2510  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/fig_basic_froz_dqn_ep005_99_batch64_lr0001.png fig_basic_froz_dqn_ep005_99_batch64_lr0001.png
+ 2511  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/fig_basic_froz_dqn_ep005_99_batch64_lr00008.png fig_basic_froz_dqn_ep005_99_batch64_lr00008.png
+ 2512  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/fig_basic_froz_dqn_ep005_99_batch64_lr00009.png fig_basic_froz_dqn_ep005_99_batch64_lr00009.png
+ 2513  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/fig_basic_froz_dqn_ep005_99_batch64_lr00011.png fig_basic_froz_dqn_ep005_99_batch64_lr00011.png
+ 2514  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/fig_basic_froz_dqn_ep005_99_batch64_lr00012.png fig_basic_froz_dqn_ep005_99_batch64_lr00012.png
+ 2515  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/fig_basic_froz_dqn_ep005_99_batch64_lr00013.png fig_basic_froz_dqn_ep005_99_batch64_lr00013.png
+ 2516  ls
+ 2517  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/fig_basic_froz_dqn_ep005_99_bsdfdfsatch64_lr091.png fig_basic_froz_dqn_ep005_99_batch64_lr091.pngswdfwe
+ 2518  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/fig_basic_froz_dqn_ep005_99_batch150_lr00012.png fig_basic_froz_dqn_ep005_99_batch150_lr00012.png
+ 2519  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/fig_basic_froz_dqn_ep005_99_bsdfdfsatch64_lr091.png fig_basic_froz_dqn_ep005_99_batch64_lr091.pngswdfwe
+ 2520  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/fig_basic_froz_dqn_ep005_99_batch130_lr00012.png fig_basic_froz_dqn_ep005_99_batch130_lr00012.png
+ 2521  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/fig_basic_froz_dqn_ep005_99_batch110_lr00012.png fig_basic_froz_dqn_ep005_99_batch110_lr00012.png
+ 2522  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/fig_basic_froz_dqn_ep005_99_batch90_lr00012.png fig_basic_froz_dqn_ep005_99_batch90_lr00012.png
+ 2523  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/fig_basic_froz_dqn_ep005_99_batch64_lr00012.png fig_basic_froz_dqn_ep005_99_batch64_lr00012.png
+ 2524  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/fig_basin_batch60_mem1000000_lr00012.png fig_basic_froz_dqn_batch60_mem1000000_lr00012.png
+ 2525  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/fig_basin_batch60_mem10000_lr00012.png fig_basic_froz_dqn_batch60_mem10000_lr00012.png
+ 2526  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/fig_basin_batch60_mem500000_lr00012.png fig_basic_froz_dqn_batch60_mem500000_lr00012.png
+ 2527  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/fig_basin_batch60_mem50000_lr00012.png fig_basic_froz_dqn_batch60_mem50000_lr00012.png
+ 2528  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/fig_basin_batch60_mem5000_lr00012.png fig_basic_froz_dqn_batch60_mem5000_lr00012.png
+ 2529  jupyter-notebook
+ 2530  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/frozlake_batch32_mem100000.png frozlake_batch32_mem1000000.png
+ 2531  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/frozlake_batch50_mem50000_lr00012.png frozlake_batch50_mem50000_lr00012.png
+ 2532  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/frozlake_batch40_mem50000_lr00012.png frozlake_batch40_mem50000_lr00012.png
+ 2533  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/frozlake_batch30_mem50000_lr00012.png frozlake_batch30_mem50000_lr00012.png
+ 2534  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/frozlake_batch20_mem50000_lr00012.png frozlake_batch20_mem50000_lr00012.png
+ 2535  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/frozlake_batch10_mem50000_lr00012.png frozlake_batch10_mem50000_lr00012.png
+ 2536  cd
+ 2537  cd anaconda3/envs/tensf
+ 2538  ls
+ 2539  cd bin
+ 2540  ls
+ 2541  cd ..
+ 2542  ls
+ 2543  cd lib
+ 2544  ls
+ 2545  cd python3.8
+ 2546  ls
+ 2547  cd site-packages
+ 2548  ls
+ 2549  cd gym
+ 2550  ls
+ 2551  cd envs
+ 2552  ls
+ 2553  cd classic_control
+ 2554  ls
+ 2555  cd ..
+ 2556  cd toy_text
+ 2557  ls
+ 2558  vim frozen_lake.py
+ 2559  python froz_versuch.py
+ 2560  vim frozen_lake.py
+ 2561  python froz_versuch.py
+ 2562  vim frozen_lake.py
+ 2563  ssh -i /home/shawn/Desktop/Physik/BA/keypairvm -l ubuntu 10.195.5.35\n
+ 2564  cd
+ 2565  ssh -i /home/shawn/Desktop/Physik/BA/keypairvm -l ubuntu 10.195.5.35\n
+ 2566  ls -t
+ 2567  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/forz_qdqn_lr12.png forz_qdqn_lr12.png
+ 2568  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/forz_qdqn_lr012.png forz_qdqn_lr012.png
+ 2569  ssh -i /home/shawn/Desktop/Physik/BA/keypairvm -l ubuntu 10.195.5.35\n
+ 2570  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/forz_qdqn_lr0012.png forz_qdqn_lr0012.png
+ 2571  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/forz_qdqn_lr00012.png forz_qdqn_lr00012.png
+ 2572  torbrowser-launcher
+ 2573  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/forz_qdqn_lr00012_1000.png forz_qdqn_lr00012_1000.png
+ 2574  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/forz_qdqn_lr0012_1000.png forz_qdqn_lr0012_1000.png
+ 2575  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/forz_qdqn_lr012_1000.png forz_qdqn_lr012_1000.png
+ 2576  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/forz_qdqn_lr12_1000.png forz_qdqn_lr12_1000.png
+ 2577  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/forz_qdqn_lr00012_1000.png forz_qdqn_lr00012_1000.png
+ 2578  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/frozlake_batch60_50000_00006.png frozlake_batch60_50000_00006.png
+ 2579  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/frozlake_batch60_50000_000012.png frozlake_batch60_50000_000012.png
+ 2580  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/frozlake_batch60_50000_00000012.png frozlake_batch60_50000_00000012.png
+ 2581  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/frozlake_batch60_50000_0000012.png frozlake_batch60_50000_0000012.png
+ 2582  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/frozlake_batch60_50000_000006.png frozlake_batch60_50000_000006.png
+ 2583  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/frozlake_batch60_50000_0000006.png frozlake_batch60_50000_0000006.png
+ 2584  ssh -i /home/shawn/Desktop/Physik/BA/keypairvm -l ubuntu 10.195.5.35\n
+ 2585  torbrowser-launcher
+ 2586  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/steps.png steps.png
+ 2587  conda activate tensf
+ 2588  python
+ 2589  ssh -i /home/shawn/Desktop/Physik/BA/keypairvm -l ubuntu 10.195.5.35\n
+ 2590  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/steps.png steps.png
+ 2591  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/steps.png steps1.png
+ 2592  ssh -i /home/shawn/Desktop/Physik/BA/keypairvm -l ubuntu 10.195.5.35\n
+ 2593  conda activate tens
+ 2594  conda activate tensf
+ 2595  cd Code
+ 2596  python neu_qdqn_cartpole.py
+ 2597  python dqn_frozlake.py
+ 2598  ssh -i /home/shawn/Desktop/Physik/BA/keypairvm -l ubuntu 10.195.5.35\n
+ 2599  python dqn_frozlake.py
+ 2600  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/steps.png steps_5epochs.png
+ 2601  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/steps.png 5epochs.png
+ 2602  ssh -i /home/shawn/Desktop/Physik/BA/keypairvm -l ubuntu 10.195.5.35\n
+ 2603  python
+ 2604  ls
+ 2605  ls -t
+ 2606  python trace_test.py
+ 2607  ssh -i /home/shawn/Desktop/Physik/BA/keypairvm -l ubuntu 10.195.5.35
+ 2608  python trace_test.py
+ 2609  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/froz_qdqn_lr00012_1000_seedNone_cutoff13_outdim4_nqlayer1_displacement.png froz_qdqn_lr00012_1000_seedNone_cutoff13_outdim4_nqlayer1_displacement.png
+ 2610  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/froz_qdqn_lr00012_1000_seedNone_cutoff13_outdim5_nqlayer1_displacement.png froz_qdqn_lr00012_1000_seedNone_cutoff13_outdim5_nqlayer1_displacement.png
+ 2611  cd
+ 2612  ls
+ 2613  cd anaconda3/envs/tensf/lib/python3.8/site-packages/
+ 2614  ls
+ 2615  cd gym
+ 2616  ls
+ 2617  cd envs
+ 2618  ls
+ 2619  cd toy_text
+ 2620  ls
+ 2621  vim frozen_lake.py
+ 2622  source /home/shawn/anaconda3/bin/activate
+ 2623  conda activate tensf
+ 2624  python
+ 2625  cd
+ 2626  cd Desktop/Physik/BA/Code
+ 2627  python froz_versuch.py
+ 2628  cd Desktop/Physik/BA/Code
+ 2629  python froz_versuch.py
+ 2630  python
+ 2631  python froz_versuch.py
+ 2632  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/frozneu_batch60_ep50_lr00012.png   frozneu_batch60_ep50_lr00012.png  
+ 2633  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/frozneu_batch60_ep200_lr012.png   frozneu_batch60_ep200_lr012.png  
+ 2634  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/frozneu_batch60_ep200_lr012.png   frozneu_batch60_ep50_lr012.png  
+ 2635  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/test.png test.png 
+ 2636  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/test1.png test1.png 
+ 2637  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/test.png test.png 
+ 2638  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/steps_frozneu_60_ep100_lr012.png  steps_frozneu_60_ep100_lr012.png 
+ 2639  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/frozneu_batch60_ep200_lr012.png frozneu_batch60_ep200_lr012.png
+ 2640  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/froz_qdqn_lr00012_1000_seedNone_cutoff13_outdim4_nqlayer1.png froz_qdqn_lr00012_1000_seedNone_cutoff13_outdim4_nqlayer1.png
+ 2641  python
+ 2642  ssh -i /home/shawn/Desktop/Physik/BA/keypairvm -l ubuntu 10.195.5.35
+ 2643  sudo apt-get install tlp
+ 2644  sudo apt update
+ 2645  sudo apt upgrade
+ 2646  rbeoot
+ 2647  reboot
+ 2648  restart
+ 2649  sudo reboot
+ 2650  sudo apt-get install  lm-sensors
+ 2651  sudo sensors-detect
+ 2652  /etc/init.d/kmod start
+ 2653  sudo reboot
+ 2654  sensors
+ 2655  ssh -i /home/shawn/Desktop/Physik/BA/keypairvm -l ubuntu 10.195.5.35
+ 2656  cd Desktop/Physik/BA/Code
+ 2657  ls
+ 2658  conda activate tensf
+ 2659  ls
+ 2660  ls -t
+ 2661  python qdqn.py
+ 2662  python froz_versuch.py
+ 2663  python
+ 2664  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/steps_frozneu_60_ep100_lradam.png  steps_frozneu_60_ep100_lradam.png 
+ 2665  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/frozneu_batch60_ep200_lradam.png frozneu_batch60_ep200_lradam.png
+ 2666  ssh -i /home/shawn/Desktop/Physik/BA/keypairvm -l ubuntu 10.195.5.35
+ 2667  cd ..
+ 2668  cd Arbeit
+ 2669  s
+ 2670  ls
+ 2671  cd iml
+ 2672  ls
+ 2673  cd R
+ 2674  ös
+ 2675  ls
+ 2676  vim Predictor.R
+ 2677  ssh -i /home/shawn/Desktop/Physik/BA/keypairvm -l ubuntu 10.195.5.35
+ 2678  r
+ 2679  ssh -i /home/shawn/Desktop/Physik/BA/keypairvm -l ubuntu 10.195.5.35
+ 2680  R
+ 2681  cd /home/shawn/R/x86_64-pc-linux-gnu-library/3.6
+ 2682  ls
+ 2683  cd compboost
+ 2684  ls
+ 2685  cd R
+ 2686  ls
+ 2687  vim compboost
+ 2688  .libPaths()\n\n\n
+ 2689  ls
+ 2690  cd ..
+ 2691  ls
+ 2692  cd libs
+ 2693  ls
+ 2694  cd ..
+ 2695  ls
+ 2696  vim DESCRIPTION
+ 2697  cd doc
+ 2698  ls
+ 2699  vim intro.
+ 2700  vim intro.R
+ 2701  vim index.html
+ 2702  cd ..
+ 2703  ls
+ 2704  vim INDEX
+ 2705  cd help/q
+ 2706  cd help
+ 2707  ls
+ 2708  cd figures
+ 2709  ls
+ 2710  cd ..
+ 2711  ls 
+ 2712  cd R
+ 2713  ls
+ 2714  vim iml
+ 2715  q
+ 2716  ls
+ 2717  R
+ 2718  cd
+ 2719  cd /usr/local/lib/R/site-library
+ 2720  ls
+ 2721  cd
+ 2722  cd /usr/lib/R/site-library
+ 2723  ls
+ 2724  cd
+ 2725  cd /usr/lib/R
+ 2726  ls
+ 2727  cd library
+ 2728  ls
+ 2729  cd
+ 2730  cd Desktop/Arbeit/iml
+ 2731  ls
+ 2732  cd R
+ 2733  ls
+ 2734  vim Predictor.R
+ 2735  ssh -i /home/shawn/Desktop/Physik/BA/keypairvm -l ubuntu 10.195.5.35
+ 2736  cd
+ 2737  cd Desktop/Physik/BA/Code
+ 2738  ls
+ 2739  ls -t
+ 2740  python froz_versuch.py
+ 2741  ssh -i /home/shawn/Desktop/Physik/BA/keypairvm -l ubuntu 10.195.5.35
+ 2742  python froz_versuch.py
+ 2743  python
+ 2744  python froz_versuch.py
+ 2745  ssh -i /home/shawn/Desktop/Physik/BA/keypairvm -l ubuntu 10.195.5.35
+ 2746  cd
+ 2747  cd Desktop/Arbeit/iml
+ 2748  vim R/Predictor.R
+ 2749  python
+ 2750  ls
+ 2751  cd ..
+ 2752  cd Physik/BA/Code
+ 2753  python trace_test.py
+ 2754  ssh -i /home/shawn/Desktop/Physik/BA/keypairvm -l ubuntu 10.195.5.35
+ 2755  jupyter-not
+ 2756  jupyter-notebook
+ 2757  torbrowser-launcher
+ 2758  ssh -i /home/shawn/Desktop/Physik/BA/keypairvm -l ubuntu 10.195.5.35
+ 2759  nano ~/.ssh/config
+ 2760  ssh -i /home/shawn/Desktop/Physik/BA/keypairvm -l ubuntu 10.195.5.35
+ 2761  nano ~/.ssh/config
+ 2762  ssh -i /home/shawn/Desktop/Physik/BA/keypairvm -l ubuntu 10.195.5.35
+ 2763  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/froz_qdqn_lr0012_1000_seedNone_cutoff13_outdim4_nqlayer1_neulayer.png froz_qdqn_lr0012_1000_seedNone_cutoff13_outdim4_nqlayer1_neulayer.png
+ 2764  cd ..
+ 2765  cd .. 
+ 2766  cd Physik/BA/Code
+ 2767  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/froz_qdqn_lr0012_1000_seedNone_cutoff13_outdim4_nqlayer1_neulayer.png froz_qdqn_lr0012_1000_seedNone_cutoff13_outdim4_nqlayer1_neulayer.png
+ 2768  ssh -i /home/shawn/Desktop/Physik/BA/keypairvm -l ubuntu 10.195.5.35
+ 2769  pidof memcached
+ 2770  # pgrep memcached\n
+ 2771  pgrep memcached\n
+ 2772  cd /proc/sys/vm/
+ 2773  ls
+ 2774  vim swappiness
+ 2775  cat /proc/sys/vm/swappiness\n
+ 2776  echo 40 > /proc/sys/vm/swappiness\n
+ 2777  sudo echo 40 > /proc/sys/vm/swappiness\n
+ 2778  grep VmSwap /proc/*/status | sort -n -r --key=2.1 | head -5
+ 2779  grep Vm /proc/5803/status
+ 2780  free -m
+ 2781  grep VmSwap /proc/*/status | sort -n -r --key=2.1 | head -5
+ 2782  cd /proc
+ 2783  ls
+ 2784  cd 5803
+ 2785  ls
+ 2786  grep VmSwap /proc/*/status | sort -n -r --key=2.1 | head -5
+ 2787  sudo nano /etc/default/grub\n
+ 2788  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/steps_frozneu_60_ep100_lradam_episo500.png steps_frozneu_60_ep100_lradam_episo500.png
+ 2789  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/frozneu_batch60_ep200_lradam_episod500.png frozneu_batch60_ep200_lradam_episod500.png
+ 2790  dmidecode | less
+ 2791  dmidecode -t bios -q
+ 2792  cat /sys/class/dmi/id/bios_version
+ 2793  sudo dmidecode -s bios-version
+ 2794  su
+ 2795  cd
+ 2796  ls
+ 2797  cd ..
+ 2798  ls
+ 2799  cd ..
+ 2800  cd /mnt/D0C0821CC0820944/Downloads
+ 2801  ls
+ 2802  ls -t
+ 2803  cd n24ul22w
+ 2804  ls
+ 2805  su
+ 2806  cat /sys/class/dmi/id/bios_version
+ 2807  echo "options thinkpad_acpi fan_control=1" > /etc/modprobe.d/thinkfan.conf
+ 2808  sudo echo "options thinkpad_acpi fan_control=1" > /etc/modprobe.d/thinkfan.conf
+ 2809  su
+ 2810  lm-sensors
+ 2811  su
+ 2812  ls
+ 2813  xsensors
+ 2814  ls
+ 2815  sudo apt-get install lm-sensors
+ 2816  sensors
+ 2817  sensors-detect
+ 2818  sudo add-apt-repository ppa:linrunner/tlp
+ 2819  sudo apt-get update
+ 2820  sudo apt-get install tlp tlp-rdw
+ 2821  sudo apt-get install tp-smapi-dkms acpi-call-dkms
+ 2822  sensors-detect
+ 2823  sensors
+ 2824  su
+ 2825  apt list --installed > my_installed_packages.txt
+ 2826  ls
+ 2827  nano my_installed_packages.txt
+ 2828  ssh -i /home/shawn/Desktop/Physik/BA/keypairvm -l ubuntu 10.195.5.35
+ 2829  ssh -i /home/shawn/Desktop/Physik/BA/keypairvm -l ubuntu 10.195.5.35\n
+ 2830  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/    sum_e+=1\n    if sum_e < 100:\n       epsilon -= 0.001\n    else:\n        epsilon = 0.01\n    #if epsilon > 0.001:\n     #   epsilon -= 0.001\n    #epsilon = 0.01 + 0.99*(1/(1+ep_decay*n))\n    #epsilon =  ep_end + (epsilon_start - ep_end) * math.exp(-1* n * ep_decay)\n    r_sums.append(r_sum)\n    steps.append(step)\n    print(r_sum)\n    print(epsilon)\n   # now = time.time()\n    #print("Episode hat {0} Sekunden gedauert".format(now - program_starts))\n    #if sum_e %10 == 0:\n    #    print(epsilon)\n    print(r_sum)\n    #print(steps)\n    if n % 100 == 0: print(n)\n    if n % 10 == 0: print(len(replay_memory))\n\ndsfds\n\n\n\n\n\n\n\n\n\n\n\n\n\ndfsfs
+ 2831  cd Desktop/Physik/BA/Code
+ 2832  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/steps_frozneu_60_qdqn.png                                                      frozlake_batch10_mem50000_lr00012.png\n steps_frozneu_60_qdqn.png                                                      frozlake_batch10_mem50000_lr00012.png\n
+ 2833  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/steps_frozneu_60_qdqn.png    steps_frozneu_60_qdqn.png   
+ 2834  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/froz_qdqn_lr0012_1000_seedNone_cutoff13_outdim4_nqlayer1_neulayer_squeeze.png froz_qdqn_lr0012_1000_seedNone_cutoff13_outdim4_nqlayer1_neulayer_squeeze.png
+ 2835  ssh -i /home/shawn/Desktop/Physik/BA/keypairvm -l ubuntu 10.195.5.35
+ 2836  ssh -i /home/shawn/Desktop/Physik/BA/keypairvm -l ubuntu 10.195.5.35\n
+ 2837  history > history_NEW.txt
+ 2838  ls
+ 2839  lsblk
+ 2840  cd /media/shawn/E87E-EACC
+ 2841  ls
+ 2842  sudo umount /dev/sdb2
+ 2843  cd
+ 2844  sudo umount /dev/sdb2
+ 2845  sudo dd bs=4M if=/mnt/D0C0821CC0820944/Downloads/ubuntu-20.04.1-desktop-amd64.iso of=/dev/sdb2 status=progress oflag=sync
+ 2846  reboot
+ 2847  sudo reboot
+ 2848  sensors
+ 2849  ssh -i /home/shawn/Desktop/Physik/BA/keypairvm -l ubuntu 10.195.5.35\n
+ 2850  sensors
+ 2851  ssh -i /home/shawn/Desktop/Physik/BA/keypairvm -l ubuntu 10.195.5.35\n
+ 2852  sensors
+ 2853  redshift
+ 2854  cd ~/
+ 2855  ls
+ 2856  ls -a
+ 2857  cd Desktop/Physik/BA/Code
+ 2858  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/steps_frozneu_60_qdqn_cutoff30.png steps_frozneu_60_qdqn_cutoff30.png
+ 2859  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/froz_qdqn_lr0012_1000_seedNone_cutoff30_outdim4_nqlayer1_neulayer_squeeze.png froz_qdqn_lr0012_1000_seedNone_cutoff30_outdim4_nqlayer1_neulayer_squeeze.png
+ 2860  torbrowser-launcher
+ 2861  cd .. 
+ 2862  jupyter-notebook
+ 2863  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/steps_frozneu_60_qdqn_cutoff30_adam.png steps_frozneu_60_qdqn_cutoff30_adam.png
+ 2864  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/froz_qdqn_lradam_1000_seedNone_cutoff30_outdim4_nqlayer1_neulayer_squeeze.png froz_qdqn_lradam_1000_seedNone_cutoff30_outdim4_nqlayer1_neulayer_squeeze.png
+ 2865  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/rsum_qdqn30.npy rsum_qdqn30.npy
+ 2866  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/step_qqdqn30.npy step_qqdqn30.npy
+ 2867  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/steps_frozneu_60_qdqn_cutoff13_adam.png steps_frozneu_60_qdqn_cutoff13_adam.png
+ 2868  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/froz_qdqn_lradam_1000_seedNone_cutoff13_outdim4_nqlayer1_neulayer_squeeze.png froz_qdqn_lradam_1000_seedNone_cutoff13_outdim4_nqlayer1_neulayer_squeeze.png
+ 2869  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/rsum_qdqn13.npy rsum_qdqn13.npy
+ 2870  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/step_qqdqn13.npy step_qqdqn13.npy
+ 2871  ssh -i /home/shawn/Desktop/Physik/BA/keypairvm -l ubuntu 10.195.5.35\n
+ 2872  cd Desktop/Physik/BA/Code
+ 2873  ls
+ 2874  conda activate tensf
+ 2875  python froz_d.py
+ 2876  python 
+ 2877  python froz_d.py
+ 2878  pip install packaging
+ 2879  python froz_d.py
+ 2880  pip install tensorboard
+ 2881  python froz_d.py
+ 2882  vim froz_d.py
+ 2883  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/steps_frozneu_60_qdqn0_cutoff13_lay1.png steps_frozneu_60_qdqn0_cutoff13_lay1.png
+ 2884  sudo scp -i /home/shawn/Desktop/Physik/BA/keypairvm ubuntu@10.195.5.35:/home/ubuntu/froz_qdqn0_lr0012_1000_seedNone_cutoff20_outdim4_nqlayer1_neulayer_squeeze_wires2_cutoff13_lay1.png froz_qdqn0_lr0012_1000_seedNone_cutoff20_outdim4_nqlayer1_neulayer_squeeze_wires2_cutoff13_lay1.png
+ 2885  cd
+ 2886  cd anaconda3/envs/tensf/lib/python3.8/site-packages/gym/
+ 2887  ls
+ 2888  cd envs/toy_text
+ 2889  ls
+ 2890  vim frozen_lake.py
+ 2891  ssh -i /home/shawn/Desktop/Physik/BA/keypairvm -l ubuntu 10.195.5.35\n
+ 2892  cd 
+ 2893  cd Desktop/Physik/BA/Code
+ 2894  conda activate tensf
+ 2895  python froz_d.py
+ 2896  vim froz_d.py
+ 2897  python froz_d.py
+ 2898  cd anaconda3/envs/tensf/lib/python3.8/site-packages/gym/
+ 2899  ls
+ 2900  cd anaconda3/envs/tensf/lib/python3.8/site-packages/gym/
+ 2901  cd /home/anaconda3/envs/tensf/lib/python3.8/site-packages/gym/
+ 2902  cd
+ 2903  cd anaconda3/envs/tensf/lib/python3.8/site-packages/gym/
+ 2904  ls
+ 2905  cd envs/toy_text
+ 2906  ls
+ 2907  vim frozen_lake.py
+ 2908  cd
+ 2909  cd Desktop/Physik/BA/Code
+ 2910  python froz_d.py
+ 2911  vim froz_d.py
+ 2912  python froz_d.py
+ 2913  vim froz_d.py
+ 2914  python froz_d.py
+ 2915  vim froz_d.py
+ 2916  python froz_d.py
+ 2917  vim froz_d.py
+ 2918  python froz_d.py
+ 2919  vim froz_d.py
+ 2920  python froz_d.py
+ 2921  vim froz_d.py
+ 2922  python froz_d.py
+ 2923  ssh -i /home/shawn/Desktop/Physik/BA/keypairvm -l ubuntu 10.195.5.35\n
+ 2924  sensors
+ 2925  vim froz_d.py
+ 2926  sensors
+ 2927  torbrowser-launcher
+ 2928  cd .. 
+ 2929  cd ..
+ 2930  cd Arbeit
+ 2931  ls
+ 2932  mkrdir kapitel_iml
+ 2933  mkdir kapitel_iml
+ 2934  cd kapitel_iml
+ 2935  git clone https://github.com/allisonhorst/palmerpenguins.git
+ 2936  rm -rf palmerpenguins
+ 2937  sudo apt-get install anki python3-distutils 
+ 2938  anki
+ 2939  torbrowser-launcher
+ 2940  ssh -i /home/shawn/Desktop/Physik/BA/keypairvm -l ubuntu 10.195.5.35\n
+ 2941* torbrowser-launcher
+ 2942  ls
+ 2943  cd Desktop/Arbeit
+ 2944  ls
+ 2945  cd kapitel_iml
+ 2946  git clone https://github.com/mlr-org/mlr3book.git
+ 2947  ls
+ 2948  cd mlr3book
+ 2949  ls
+ 2950  cd R
+ 2951  ls
+ 2952  cd ..
+ 2953  ls
+ 2954  mkdir iml/
+ 2955  cd 
+ 2956  ös
+ 2957  cd Desktop/Arbeit/kapitel_iml/mlr3book
+ 2958  ls
+ 2959  cd bookdown
+ 2960  ls
+ 2961  cd ..
+ 2962  ls
+ 2963  cd iml
+ 2964  vim iml_bsp.R
+ 2965  git push
+ 2966  git remote set-url origin https://github.com/mlr-org/mlr3book.git
+ 2967  git push
+ 2968  git remote -v
+ 2969  git remote add upstream https://github.com/mlr-org/mlr3book.git
+ 2970  git remote -v
+ 2971  git push
+ 2972  git push origin master:origin/master
+ 2973  git remote set-url origin https://github.com/mlr-org/mlr3book.git
+ 2974  git push
+ 2975  git status
+ 2976  git add iml_bsp.R
+ 2977  git commit -m "IML Beispiel fürn Abschnitt"
+ 2978  git push
+ 2979  git push origin master
+ 2980  git fetch upstream
+ 2981  ls
+ 2982  cd ..
+ 2983  ls
+ 2984  cd ..iml
+ 2985  cd ..
+ 2986  ls
+ 2987  ls -a
+ 2988  rm -rf mlr3book
+ 2989  git init
+ 2990  ssh -T git@github.com
+ 2991  git clone git@github.com:mizkulg/mlr3book.git
+ 2992  cd mlr3book
+ 2993  mkdir iml
+ 2994  cd iml
+ 2995  vim iml_bsp.R
+ 2996  git add iml_bsp.R
+ 2997  git commit -m "IML Abschnitt"
+ 2998  git push
+ 2999  git status
+ 3000  ls
+ 3001  cd 
+ 3002  cd Desktop/
+ 3003  cd Arbeit
+ 3004  ls
+ 3005  cd cpp_test_repo
+ 3006  ls
+ 3007  cd cpluszupython
+ 3008  ls
+ 3009  vim pybind_class_test.cpp
+ 3010  vim pybindtest_class.cpp
+ 3011  vim abstrakt_github.cpp
+ 3012  vim pybind_class_test.cpp
+ 3013  ls
+ 3014* c++ -O3 -Wall -shared -std=c++11 -fPIC `python3 -m pybind11 --includes` abstrakt_github.cpp -o example`python3-config     --extension-suffix`\n\n
+ 3015* cd
+ 3016* cd anaconda3/envs
+ 3017* ls
+ 3018* conda activate pybind
+ 3019* c++ -O3 -Wall -shared -std=c++11 -fPIC `python3 -m pybind11 --includes` abstrakt_github.cpp -o example`python3-config     --extension-suffix`\n\n
+ 3020* python
+ 3021  vim pybind_class_test.cpp
+ 3022  vim abstrakt_github.cpp
+ 3023  vim pybind_class_test.cpp
+ 3024* vim ~/.python_history
+ 3025  vim abstrakt_github.cpp
+ 3026  vim abstrakt_test.cpp
+ 3027  vim abstrakt_github.cpp
+ 3028* mkdir abstrakt
+ 3029* cp abstrakt_test.cpp abstrakt/
+ 3030* cd abstrakt
+ 3031* ls
+ 3032* c++ -O3 -Wall -shared -std=c++11 -fPIC `python3 -m pybind11 --includes` abstrakt_test.cpp -o example`python3-config     --extension-suffix`\n\n
+ 3033* ls
+ 3034* python
+ 3035* c++ -O3 -Wall -shared -std=c++11 -fPIC `python3 -m pybind11 --includes` abstrakt_test.cpp -o example`python3-config     --extension-suffix`\n\n
+ 3036* ls
+ 3037* c++ -O3 -Wall -shared -std=c++11 -fPIC `python3 -m pybind11 --includes` abstract_test.cpp -o example`python3-config --extension-suffix`\n
+ 3038* c++ -O3 -Wall -shared -std=c++11 -fPIC `python3 -m pybind11 --includes` abstrakt_test.cpp -o example`python3-config --extension-suffix`\n
+ 3039* ls
+ 3040* python
+ 3041* ls
+ 3042  l
+ 3043  ls

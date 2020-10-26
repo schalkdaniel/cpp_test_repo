@@ -1,0 +1,7 @@
+https://www.boost.org/doc/libs/1_73_0/libs/python/doc/html/tutorial/tutorial/exposing.html
+https://stackoverflow.com/questions/52495024/export-of-c-classes-for-python
+http://openalea.gforge.inria.fr/dokuwiki/data/pdfex/PDF_documentation_package_how_to_integrate_cpp_code_in_python.pdf
+https://www.youtube.com/watch?v=7iYhuqEbJZs
+https://flanusse.net/interfacing-c++-with-python.html
+https://developer.lsst.io/v/DM-9089/coding/python_wrappers_for_cpp_with_pybind11.html
+
