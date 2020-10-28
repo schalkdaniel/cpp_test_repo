@@ -1,3 +1,28 @@
+/**
+ * @file   audi_seri.cpp
+ * @author Shawn
+ *
+ * @brief Serializes virtual functions
+ *
+ * @section DESCRIPTION
+ * 
+ * Compilation:
+ * g++ -std=c++11 audi_seri.cpp -lboost_serialization -larmadillo
+ * 
+ * After running ./a.out:
+ * Audi:
+ * owner: Wilma hp: 3 second owner: Rene country: Argentina
+ * BMW:
+ * owner: Horst hp: 200 country: Germany cyl: 8
+ * Count of audi:1
+ * Count of audi:0
+ * Count of audi:2
+ * Audi:
+ * owner: Wilma hp: 3 second owner: Rene country: Argentina
+ * 
+**/
+
+
 #include <armadillo>
 
 #include <boost/archive/binary_iarchive.hpp>

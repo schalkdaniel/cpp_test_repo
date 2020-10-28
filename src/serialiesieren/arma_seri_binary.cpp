@@ -1,3 +1,23 @@
+/**
+ * @file   arma_seri_binary.cpp
+ * @author Shawn
+ *
+ * @brief Serializes Arma Matrices
+ * 
+ * @section DESCRIPTION
+ * 
+ * Compilation:
+ * g++ -std=c++11 arma_seri_binary.cpp -lboost_serialization -larmadillo
+ * 
+ * After running ./a.out:
+ * v = 2.5
+ * hp = 80 Gear with v = 2.5[matrix size: 4x0]
+ * 
+ * 
+ * 
+**/
+
+
 #include <iostream>
 #include <fstream>
 #include <boost/archive/binary_oarchive.hpp>

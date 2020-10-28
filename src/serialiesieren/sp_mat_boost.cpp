@@ -1,4 +1,18 @@
 //https://www.boost.org/doc/libs/1_47_0/libs/serialization/doc/serialization.html#splittingfreefunctions
+/**
+ * @file   sp_mat_boost.cpp
+ * @author Shawn
+ *
+ * @brief Serializes Sparse Arma Matrices
+ *
+ * @section DESCRIPTION
+ * 
+ * Compilation:
+ * g++ -std=c++11 audi_seri.cpp -lboost_serialization -larmadillo
+ * 
+ * After compilation:
+ * 
+**/
 
 
 #include <iostream>

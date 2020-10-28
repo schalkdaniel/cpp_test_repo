@@ -1,16 +1,19 @@
 /**
- *  @file    pointer_serial.cpp
+ *  @file    pointer_serial_binary.cpp
  *  @author  Shawn
  *
  *  @brief Pointer, saving data with serialization, first draft
  *
  *  @section DESCRIPTION
- *  This section will be updated once the code works as expected.
- *  No virtual functions in this example
- *
- *
- *
- **/
+ * 
+ * Compilation:
+ * g++ -std=c++11 pointer_serial_binary.cpp -lboost_serialization -larmadillo
+ * 
+ * After running ./a.out:
+ * v = 2.5
+ * hp = 80 Gear with v = 2.5
+ * 
+**/
 
 
 #include <iostream>
