@@ -107,6 +107,7 @@ public:
     boost::archive::binary_oarchive ar(of);
     std::shared_ptr<const Car> audi = shared_from_this();
     boost::serialization::make_binary_object(&audi, sizeof(audi));
+    ar& audi;
   }
 
 private:
@@ -129,7 +130,7 @@ private:
 };
 
 
-class BMW : public Car
+class BMW : public Car, public std::enable_shared_from_this<Car> 
 {
 public:
   BMW () {};
@@ -156,7 +157,10 @@ public:
     std::ofstream of(file, std::ofstream::binary);
     std::stringstream strs;
     boost::archive::binary_oarchive ar(of);
-    boost::serialization::make_binary_object(this, sizeof(this));
+    std::shared_ptr<const Car> audi = shared_from_this();
+    boost::serialization::make_binary_object(&audi, sizeof(audi));
+    ar& audi;
+
   }
 
 private:
@@ -176,36 +180,22 @@ private:
   }
 };
 
-Audi& loadAudi (const std::string file_name) {
-//void loadAudi (const std::string file_name) {
 
-  //std::ifstream in_f(file_name, std::ifstream::binary);
+Audi loadAudi (const std::string file_name) {
+std::cout << "Loading " << file_name << std::endl;
+std::ifstream in_f(file_name, std::ifstream::binary);
 
-   //std::shared_ptr<Car> audi; //= std::make_unique<Audi>();
-     //std::cout << "Deserialize: Count of audi:" << audi.use_count() << std::endl;
+std::cout << "1" << std::endl;
+std::shared_ptr<Car> audi; //= std::make_unique<Audi>();
 
-     //boost::archive::binary_iarchive ar(in_f);
-     //ar& audi;
-     //Audi& d = dynamic_cast<Audi &>(*audi);
+std::cout << "2" << std::endl;
+boost::archive::binary_iarchive ar(in_f);
 
-     //std::cout << "Deserialize: Count of audi:" << audi.use_count() << std::endl;
-     //std::cout << "Print Audi:" << std::endl;
-     //d.printMember();
+std::cout << "3" << std::endl;
+ar& audi;
 
-  std::cout << "Loading " << file_name << std::endl;
-  std::ifstream in_f(file_name, std::ifstream::binary);
-
-  std::cout << "1" << std::endl;
-  std::shared_ptr<Car> audi; //= std::make_unique<Audi>();
-
-  std::cout << "2" << std::endl;
-  boost::archive::binary_iarchive ar(in_f);
-
-  std::cout << "3" << std::endl;
-  ar& audi;
-
-  std::cout << "4" << std::endl;
-  return dynamic_cast<Audi &>(*audi);
+std::cout << "4" << std::endl;
+return dynamic_cast<Audi &>(*audi);
 };
 
 BOOST_CLASS_EXPORT(Audi);
@@ -235,7 +225,7 @@ int main() {
   }
 
 
-   {
+  {
      std::shared_ptr<Car> audi; //= std::make_unique<Audi>();
      std::cout << "Deserialize: Count of audi:" << audi.use_count() << std::endl;
 
@@ -255,7 +245,7 @@ int main() {
 
   std::string test_dat = "my-new-audi.dat";
   audi->save(test_dat);
-  Audi& d =  loadAudi(test_dat);
+  Audi d =  loadAudi(test_dat);
   d.printMember();
 
   return 0;
